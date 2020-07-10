@@ -178,20 +178,24 @@ a{
     }
   nav{
      grid-area: nav;
-     width: 150px;
+     width: 170px;
      height:auto;
   }
+  .navTop h4{
+    color: #B31D72;
+    font-size: 1.8em;
+    }
     main{
     grid-area: main;
-    font-size: 10px;
+    font-size: .5em;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 25px;
     }
     .grid{
     background-color: white;
     }
     .myoffer{
-    margin-left: 30px;
+    margin-left: 50px;
     font-size: .5em;
     height: auto;
     width: 800px;
@@ -200,6 +204,7 @@ a{
     margin-left:10px;
     padding: 50px ;
     width: 700px;
+    background-color: white;
     font-size: 1.8em;
     }
     .navTop > h4{
