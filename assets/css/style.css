@@ -183,8 +183,8 @@ a{
   }
   .navTop h4{
     color: #B31D72;
-    font-size: 1.8em;
-    font-family: Arial;
+    font-size: 1.9em;
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
     }
     main{
     grid-area: main;
@@ -207,9 +207,6 @@ a{
     width: 700px;
     background-color: white;
     font-size: 1.8em;
-    }
-    .navTop > h4{
-        font-size: 1.2em;
     }
     .myimg{
     width: 100px;
@@ -262,8 +259,6 @@ a{
     font-size: 1.6em;
     }
     .resumeBottom > h4{
-    text-decoration: underline;
-    color: #B31D72;
     padding-top: 10px;
     }
     .background{
