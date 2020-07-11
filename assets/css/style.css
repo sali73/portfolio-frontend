@@ -265,7 +265,10 @@ a{
     text-decoration: underline;
     color: #B31D72;
     padding-top: 10px;
-}
+    }
+    .background{
+    border-bottom-right-radius: 5%;
+    }
 }
 
 
