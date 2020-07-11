@@ -182,14 +182,14 @@ a{
      height:auto;
   }
   .navTop h4{
-    color: black;
+    color: #B31D72;
     font-size: 1.8em;
     }
     main{
     grid-area: main;
     font-size: .5em;
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 50px;
     }
     .grid{
     background-color: white;
