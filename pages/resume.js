@@ -1,5 +1,4 @@
 import Layout from  '../components/Layout'
-
 const Contact = () => {
     console.log('this is the contact page ')
     return (
@@ -45,6 +44,10 @@ const Contact = () => {
 
                             </ul>
                 </div>
+                  <a href="sali.pdf" download>
+                    <button >Download </button>
+                  </a>
+
             </div>
 
 
