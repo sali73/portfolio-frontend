@@ -44,8 +44,8 @@ const Contact = () => {
 
                             </ul>
                 </div>
-                  <a href="sali.pdf" download>
-                    <button >Download </button>
+                  <a href="./sali.pdf" download>
+                    <button type="button" className="btn btn-light" >Download </button>
                   </a>
 
             </div>
