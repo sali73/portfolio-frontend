@@ -53,7 +53,7 @@ const Contact = () => {
                         download
                       >
                             <button>
-                              Download
+                               cv Download
                             </button>
                       </a>
 
