@@ -47,15 +47,15 @@ const Contact = () => {
 //                  <a href="../components/sali.pdf" download>
 //                    <button type="button" className="btn btn-light" >Download </button>
 //                  </a>
-                       <a
-                        className="delink"
-                        href={require("../components/sali.pdf")}
-                        download
-                      >
-                            <button>
-                               cv Download
-                            </button>
-                      </a>
+//                       <a
+//                        className="delink"
+//                        href={require("../components/sali.pdf")}
+//                        download
+//                      >
+//                            <button>
+//                               cv Download
+//                            </button>
+//                      </a>
 
             </div>
 
