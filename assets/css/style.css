@@ -18,7 +18,7 @@ nav{
     color: black;
 }
 .background{
-   background-image: url("https://i.imgur.com/QfDvLSR.gif");
+    background-image: url("https://i.imgur.com/QfDvLSR.gif");
     background-repeat: no-repeat;
     background-size: cover;
     border-top-right-radius: 5%;
@@ -185,6 +185,7 @@ a{
     color: #B31D72;
     font-size: 1.9em;
     font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+      text-shadow: none;
     }
     main{
     grid-area: main;
