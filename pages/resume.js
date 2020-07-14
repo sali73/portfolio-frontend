@@ -44,9 +44,18 @@ const Contact = () => {
 
                             </ul>
                 </div>
-                  <a href="../components/sali.pdf" download>
-                    <button type="button" className="btn btn-light" >Download </button>
-                  </a>
+//                  <a href="../components/sali.pdf" download>
+//                    <button type="button" className="btn btn-light" >Download </button>
+//                  </a>
+                       <a
+                        className="delink"
+                        href={require("../components/sali.pdf")}
+                        download
+                      >
+                            <button>
+                              Download
+                            </button>
+                      </a>
 
             </div>
 
