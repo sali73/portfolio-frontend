@@ -186,92 +186,93 @@ a{
     color: #B31D72;
     font-size: 1.6em;
     text-shadow: none;
+    font-weight: 900;
     }
     .navMid >a{
     padding-top: 25px;
     font-weight: 900;
-    font-size: 1.4em;
+    font-size: 1.3em;
 
 
 }
     .navBottom h6{
         color: #4A5665;
-        padding-top: 20px;
+        padding-top: 40px;
     }
     main{
-    grid-area: main;
-    font-size: .5em;
-    margin-top: 20px;
-    margin-left: 60px;
-    width: 260px;
-    margin-top: 20px;
+        grid-area: main;
+        font-size: .5em;
+        margin-top: 20px;
+        margin-left: 60px;
+        width: 260px;
+        margin-top: 20px;
     }
     .grid{
-    background-color: white;
+        background-color: white;
     }
     .myoffer{
-    margin-left: 50px;
-    font-size: .5em;
-    height: auto;
-    width: 800px;
+        margin-left: 50px;
+        font-size: .5em;
+        height: auto;
+        width: 800px;
     }
     .jumbotron{
-    margin-left:10px;
-    padding: 50px ;
-    width: 700px;
-    background-color: white;
-    font-size: 1.8em;
+        margin-left:10px;
+        padding: 50px ;
+        width: 700px;
+        background-color: white;
+        font-size: 1.8em;
     }
     .myimg{
-    width: 100px;
-    border-radius: 50%;
-    padding-bottom: 15px;
-    margin-left: 10px;
+        width: 100px;
+        border-radius: 50%;
+        padding-bottom: 15px;
+        margin-left: 10px;
     }
     .navMid h5{
-    display: flex;
-    padding-top: 5px;
+        display: flex;
+        padding-top: 5px;
         font-size: 1em;
     }
     .portfolio {
-    display: grid;
-    grid-template-rows: 220px auto;
+        display: grid;
+        grid-template-rows: 220px auto;
     }
     .portfolio2{
-    display: grid;
-    grid-template-columns: 50px 400px;
+        display: grid;
+        grid-template-columns: 50px 400px;
     }
     .line {
-    width: 340px;
-    height: 30px;
-    border-bottom: 1px solid black;
-    margin-bottom: 30px;
+        width: 340px;
+        height: 30px;
+        border-bottom: 1px solid black;
+        margin-bottom: 30px;
     }
     .myoffer {
-    width: 350px;
+        width: 350px;
     }
     .lineTwo{
-    width: 260px;
-    height: 30px;
-    border-bottom: 1px solid black;
+        width: 260px;
+        height: 30px;
+        border-bottom: 1px solid black;
     }
     .jumbotron{
-    width: 400px ;
-    background-color: white;
-    margin-left: -20px;
+        width: 400px ;
+        background-color: white;
+        margin-left: -20px;
     }
     .projectsimg{
-    width: 240px;
-    height: 150px;
+        width: 240px;
+        height: 150px;
     }
     .project_cards h4 {
-    font-size: 1.6em;
+        font-size: 1.6em;
     }
     .resumeBottom > h4{
-    padding-top: 10px;
+        padding-top: 10px;
     }
     .background{
-    border-bottom-right-radius: 7%;
+        border-bottom-right-radius: 7%;
     }
 }
 
