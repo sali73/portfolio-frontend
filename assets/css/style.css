@@ -180,6 +180,7 @@ a{
      grid-area: nav;
      width: 175px;
      padding-top : 80px;
+     height:auto;
   }
   .navTop {
   padding-bottom: 20px;
