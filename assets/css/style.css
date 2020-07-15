@@ -177,7 +177,6 @@ a{
         font-size: 12px;
     }
   nav{
-     grid-area: nav;
      width: 195px;
      padding-top : 50px;
      height:auto;
@@ -186,29 +185,25 @@ a{
   padding-bottom: 50px;
   }
   .navTop h4{
-    color: #B31D72;
     font-size: 1.6em;
     text-shadow: none;
     font-weight: 900;
     padding-bottom:9px;
     }
   .navMid >a{
-    padding-top: 40px;
+    padding-top: 50px;
     font-weight: 900;
     font-size: 1.3em;
    }
   .navBottom h6{
-    color: #4A5665;
     padding-top: 100px;
     padding-bottom:10px;
   }
   main{
-    grid-area: main;
     font-size: .5em;
-    margin-top: 20px;
-    margin-left: 60px;
-    width: 260px;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 250px;
   }
   .grid{
     background-color: white;
@@ -233,12 +228,10 @@ a{
     margin-left: 10px;
   }
   .navMid h5{
-    display: flex;
     padding-top: 5px;
     font-size: 1em;
   }
   .portfolio {
-    display: grid;
     grid-template-rows: 220px auto;
   }
   .portfolio2{
