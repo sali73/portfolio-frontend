@@ -178,102 +178,104 @@ a{
     }
   nav{
      grid-area: nav;
-     width: 170px;
-     height:auto;
-     padding-top : 50px;
+     width: 175px;
+     padding-top : 80px;
+  }
+  .navTop {
+  padding-bottom: 20px;
   }
   .navTop h4{
     color: #B31D72;
     font-size: 1.6em;
     text-shadow: none;
     font-weight: 900;
+    padding-bottom:9px;
     }
-    .navMid >a{
-    padding-top: 25px;
+  .navMid >a{
+    padding-top: 34px;
     font-weight: 900;
     font-size: 1.3em;
-
-
-}
-    .navBottom h6{
-        color: #4A5665;
-        padding-top: 40px;
-    }
-    main{
-        grid-area: main;
-        font-size: .5em;
-        margin-top: 20px;
-        margin-left: 60px;
-        width: 260px;
-        margin-top: 20px;
-    }
-    .grid{
-        background-color: white;
-    }
-    .myoffer{
-        margin-left: 50px;
-        font-size: .5em;
-        height: auto;
-        width: 800px;
-    }
-    .jumbotron{
-        margin-left:10px;
-        padding: 50px ;
-        width: 700px;
-        background-color: white;
-        font-size: 1.8em;
-    }
-    .myimg{
-        width: 100px;
-        border-radius: 50%;
-        padding-bottom: 15px;
-        margin-left: 10px;
-    }
-    .navMid h5{
-        display: flex;
-        padding-top: 5px;
-        font-size: 1em;
-    }
-    .portfolio {
-        display: grid;
-        grid-template-rows: 220px auto;
-    }
-    .portfolio2{
-        display: grid;
-        grid-template-columns: 50px 400px;
-    }
-    .line {
-        width: 340px;
-        height: 30px;
-        border-bottom: 1px solid black;
-        margin-bottom: 30px;
-    }
-    .myoffer {
-        width: 350px;
-    }
-    .lineTwo{
-        width: 260px;
-        height: 30px;
-        border-bottom: 1px solid black;
-    }
-    .jumbotron{
-        width: 400px ;
-        background-color: white;
-        margin-left: -20px;
-    }
-    .projectsimg{
-        width: 240px;
-        height: 150px;
-    }
-    .project_cards h4 {
-        font-size: 1.6em;
-    }
-    .resumeBottom > h4{
-        padding-top: 10px;
-    }
-    .background{
-        border-bottom-right-radius: 7%;
-    }
+   }
+  .navBottom h6{
+    color: #4A5665;
+    padding-top: 40px;
+    padding-bottom:10px;
+  }
+  main{
+    grid-area: main;
+    font-size: .5em;
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 260px;
+    margin-top: 20px;
+  }
+  .grid{
+    background-color: white;
+  }
+  .myoffer{
+    margin-left: 50px;
+    font-size: .5em;
+    height: auto;
+    width: 800px;
+  }
+  .jumbotron{
+    margin-left:10px;
+    padding: 50px ;
+    width: 700px;
+    background-color: white;
+    font-size: 1.8em;
+  }
+  .myimg{
+    width: 120px;
+    border-radius: 50%;
+    padding-bottom: 15px;
+    margin-left: 10px;
+  }
+  .navMid h5{
+    display: flex;
+    padding-top: 5px;
+    font-size: 1em;
+  }
+  .portfolio {
+    display: grid;
+    grid-template-rows: 220px auto;
+  }
+  .portfolio2{
+    display: grid;
+    grid-template-columns: 50px 400px;
+  }
+  .line {
+    width: 340px;
+    height: 30px;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+  }
+  .myoffer {
+    width: 350px;
+  }
+  .lineTwo{
+    width: 260px;
+    height: 30px;
+    border-bottom: 1px solid black;
+  }
+  .jumbotron{
+    width: 400px ;
+    background-color: white;
+    margin-left: -20px;
+  }
+  .projectsimg{
+    width: 240px;
+    height: 150px;
+  }
+  .project_cards h4 {
+    font-size: 1.6em;
+  }
+  .resumeBottom > h4{
+    padding-top: 10px;
+  }
+  .background{
+    border-bottom-right-radius: 5%;
+  }
 }
 
 
