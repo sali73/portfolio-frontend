@@ -182,7 +182,7 @@ a{
      height:auto;
   }
   .navTop {
-  padding-bottom: 70px;
+  padding-bottom: 80px;
   }
   .navTop h4{
     font-size: 1.6em;
@@ -200,10 +200,11 @@ a{
     padding-bottom:10px;
   }
   main{
-    font-size: .5em;
-    margin-top: 90px;
+    font-size: .7em;
+    margin-top: 120px;
     margin-left: 100px;
     width: 230px;
+    padding-left:10px;
   }
   .grid{
     background-color: white;
