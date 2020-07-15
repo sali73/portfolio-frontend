@@ -182,10 +182,10 @@ a{
      height:auto;
   }
   .navTop {
-  padding-bottom: 80px;
+  padding-bottom: 70px;
   }
   .navTop h4{
-    font-size: 1.7em;
+    font-size: 1.8em;
     text-shadow: none;
     font-weight: 900;
     padding-bottom:9px;
@@ -199,6 +199,10 @@ a{
     padding-top: 100px;
     padding-bottom:10px;
     font-size: .7em;
+  }
+   .navMid h5{
+    padding-top: 5px;
+    font-size: 1em;
   }
   main{
     font-size: 1.2em;
@@ -228,10 +232,6 @@ a{
     border-radius: 50%;
     padding-bottom: 15px;
     margin-left: 10px;
-  }
-  .navMid h5{
-    padding-top: 5px;
-    font-size: 1em;
   }
   .portfolio {
     grid-template-rows: 220px auto;
