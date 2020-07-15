@@ -185,16 +185,26 @@ a{
   .navTop h4{
     color: #B31D72;
     font-size: 1.6em;
-      text-shadow: none;
+    text-shadow: none;
     }
     .navMid >a{
     padding-top: 25px;
+    font-weight: 900;
+    font-size: 1.4em;
+
+
 }
+    .navBottom h6{
+        color: #4A5665;
+        padding-top: 20px;
+    }
     main{
     grid-area: main;
     font-size: .5em;
     margin-top: 20px;
     margin-left: 60px;
+    width: 260px;
+    margin-top: 20px;
     }
     .grid{
     background-color: white;
@@ -222,11 +232,6 @@ a{
     display: flex;
     padding-top: 5px;
         font-size: 1em;
-    }
-     main{
-    grid-area: main;
-    width: 260px;
-    margin-top: 20px;
     }
     .portfolio {
     display: grid;
