@@ -180,12 +180,16 @@ a{
      grid-area: nav;
      width: 170px;
      height:auto;
+     padding-top : 50px;
   }
   .navTop h4{
     color: #B31D72;
     font-size: 1.6em;
       text-shadow: none;
     }
+    .navMid >a{
+    padding-top: 25px;
+}
     main{
     grid-area: main;
     font-size: .5em;
