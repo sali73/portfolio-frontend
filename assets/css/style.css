@@ -178,11 +178,11 @@ a{
     }
   nav{
      width: 195px;
-     padding-top : 50px;
+     padding-top : 70px;
      height:auto;
   }
   .navTop {
-  padding-bottom: 50px;
+  padding-bottom: 70px;
   }
   .navTop h4{
     font-size: 1.6em;
@@ -191,7 +191,7 @@ a{
     padding-bottom:9px;
     }
   .navMid >a{
-    padding-top: 50px;
+    padding-top: 70px;
     font-weight: 900;
     font-size: 1.3em;
    }
