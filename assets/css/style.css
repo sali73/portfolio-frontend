@@ -183,7 +183,7 @@ a{
      height:auto;
   }
   .navTop {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   }
   .navTop h4{
     color: #B31D72;
@@ -193,7 +193,7 @@ a{
     padding-bottom:9px;
     }
   .navMid >a{
-    padding-top: 34px;
+    padding-top: 40px;
     font-weight: 900;
     font-size: 1.3em;
    }
