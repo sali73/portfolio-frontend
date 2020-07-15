@@ -179,7 +179,7 @@ a{
   nav{
      grid-area: nav;
      width: 175px;
-     padding-top : 80px;
+     padding-top : 65px;
      height:auto;
   }
   .navTop {
