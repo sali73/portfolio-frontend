@@ -24,7 +24,7 @@ nav{
     border-top-right-radius: 5%;
 }
 .navTop {
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 25px;
 }
 .navTop h4{
@@ -183,7 +183,7 @@ a{
     }
   nav{
      width: 220px;
-     padding-top: 40px;
+     padding-top: 30px;
      height:auto;
   }
   .navTop {
@@ -201,13 +201,16 @@ a{
     padding-top : 20px;
    }
   .navBottom h6{
-    padding-top: 90px;
+    padding-top: 80px;
     font-size: 1.2em;
   }
    .navMid h5{
     padding-top: 5px;
     font-size: 1em;
   }
+  .navBottom li {
+    padding-bottom: 20px;
+   }
   main{
     font-size: 1.2em;
     margin-top: 55px;
