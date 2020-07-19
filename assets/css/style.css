@@ -37,6 +37,7 @@ nav{
     border-radius: 50%;
     padding-bottom: 15px;
     margin-left: 30px;
+    border: 2px solid white ;
 }
 .navMid >a{
     display: flex;
