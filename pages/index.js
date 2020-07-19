@@ -50,11 +50,12 @@ render(){
                     </div>
                     <div className='parttwo'>
                             <h6><big>Currently open to co-operation on new and existing projects.</big><br/>
-                                Looking for a softwer engineer, or frontend  a just full-stack dev willing to join your team?
+                                Looking for a Softwer Engineer, Frontend or Full-stack willing to join your team?
                                 <Link href={'/contact'}> Contact me. </Link> I will answer you in ~24 hours.</h6>
                             <div className='line'></div>
                             <h6>I had 12 Weeks Of Software Engineering Impressive Training
-                                Create Apps Using Front-end and Back-end Tools.This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like.Also i have graduated of <big>Computer Scince Bachelor degree</big> ==> See <Link href={'/resume'}> my CV </Link> for more details.</h6>
+                                Create Apps Using Front-end and Back-end Tools.This gave me a lot of experience and hindsight on how a proper team collaboration,
+                                recruitment, and project management process should look like.Also i graduated of <big>Computer Scince Bachelor degree</big> ==> See <Link href={'/resume'}> my CV </Link> for more details.</h6>
                         <div className='line'></div>
                          <ul className='project_cards'>
                             {this.props.projects
