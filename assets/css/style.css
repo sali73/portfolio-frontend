@@ -178,12 +178,12 @@ a{
 
 @media (max-width: 600px) {
     *{
-        font-size: 14px;
+        font-size: 12px;
     }
   nav{
      width: 220px;
      padding-top: 40px;
-     height:1200px;
+     height:auto;
   }
   .navTop {
   padding-bottom: 50px;
