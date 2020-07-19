@@ -182,8 +182,8 @@ a{
     }
   nav{
      width: 220px;
-     padding-top : 50px;
-     height:auto;
+     padding-top : 40px;
+     height:400px;
   }
   .navTop {
   padding-bottom: 50px;
@@ -196,8 +196,8 @@ a{
     }
   .navMid >a{
     font-weight: 900;
-    font-size: 1.3em;
-    padding-top : 35px;
+    font-size: 1.4em;
+    padding-top : 25px;
    }
   .navBottom h6{
     padding-top: 100px;
