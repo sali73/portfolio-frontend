@@ -43,7 +43,7 @@ const Offer = () => {
                         </ul>
                     </div>
                     <div className='line'></div>
-                    <h6>If your initial thought is that I can’t be the best in everything, it's okay. Send the design job to someone else, and I will take care of all the code development, or whatever other role you see me best in.
+                    <h6 style={{color:'#4A5665'}}>If your initial thought is that I can’t be the best in everything, it's okay. Send the design job to someone else, and I will take care of all the code development, or whatever other role you see me best in.
                         In cases when you already have an existing team, but you would still use some help, <Link href={'/contact'}> Contact me. </Link> as well. I’ll fit in very quickly, I promise.</h6>
                 </div>
             </Layout>
