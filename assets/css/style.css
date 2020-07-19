@@ -211,6 +211,9 @@ a{
   .navBottom li {
     padding-bottom: 20px;
    }
+  .navBottom > li : hover{
+  color: white;
+  }
   main{
     font-size: 1.2em;
     margin-top: 55px;
