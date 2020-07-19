@@ -201,7 +201,7 @@ a{
     padding-top : 20px;
    }
   .navBottom h6{
-    padding-top: 80px;
+    padding-top: 70px;
     font-size: 1.2em;
   }
    .navMid h5{
@@ -209,7 +209,7 @@ a{
     font-size: 1em;
   }
   .navBottom li {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
    }
   .navBottom > li : hover{
   color: white;
