@@ -40,8 +40,8 @@ nav{
 }
 .navMid >a{
     display: flex;
-    margin-top:50px;
-    font-size: 1.5em;
+    margin-top:30px;
+    font-size: 1.4em;
 }
 .navBottom{
     margin-top: 50px;
