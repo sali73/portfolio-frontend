@@ -90,7 +90,7 @@ big{
     height: 30px;
     border-bottom: 1px solid black;
     margin-bottom: 30px;
-    color: #4A5665;
+    color: #7f797c;
 }
 h6 , h5{
     line-height: 200%;
@@ -150,7 +150,7 @@ h6 , h5{
 .lineTwo {
     width: 770px;
     height: 47px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #7f797c;
 }
 .resumeBottom > h4{
     text-decoration: underline;
