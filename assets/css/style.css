@@ -33,12 +33,11 @@ nav{
     font-size: 1.8em;
 }
 .myimg{
-    color: #B31D72;
-    text-shadow: 2px 2px;
     width: 160px;
     border-radius: 50%;
     padding-bottom: 15px;
     margin-left: 30px;
+    shadow: 5px 5px;
 }
 .navMid >a{
     display: flex;
@@ -199,8 +198,7 @@ a{
     padding-top : 35px;
    }
   .navBottom h6{
-    padding-top: 130px;
-    padding-bottom:10px;
+    padding-top: 100px;
     font-size: 1.2em;
   }
    .navMid h5{
