@@ -141,7 +141,8 @@ h6 , h5{
     margin-left:50px;
     padding: 50px ;
     width: 900px;
-    background-color: #f3f0fa;
+
+    background-image: linear-gradient(#f3f0fa, white);
 }
 .resumeTop{
     text-align: center;
