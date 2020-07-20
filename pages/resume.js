@@ -28,7 +28,7 @@ const Contact = () => {
                                     <li><a href='https://bookmarkd-react-app.herokuapp.com'>Bookmarkd App</a></li>
                                     <li><a href='https://orlando-full-stack-app.herokuapp.com/tour'>Orlando Tour App</a></li>
                                     <li><a href='https://happy-golick-39a59e.netlify.app/'>Tic Tac Toe</a></li>
-
+                                    <li><a href='https://festive-mirzakhani-cba358.netlify.app/'>College App</a></li>
                                 </ul>
                             </ul>
                             <h5>El Marwa Food Industries</h5>
