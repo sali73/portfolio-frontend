@@ -208,12 +208,12 @@ a{
     padding-top: 5px;
     font-size: 1em;
   }
-  .navBottom > li : hover{
-  color: white;
+  .navBottom > li {
+  padding-bottom: -20px;
   }
   .btn{
     margin-left: 15px;
-   }
+  }
   main{
     font-size: 1.2em;
     margin-top: 60px;
