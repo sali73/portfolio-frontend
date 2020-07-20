@@ -7,7 +7,7 @@ const Contact = () => {
                 <div className= 'jumbotron'>
                     <div className='resumeTop'>
                         <h3>Sali Samir Mahmoud</h3>
-                        <h5>SOFTWARE ENGINEER</h5>
+                        <h5>SOFTWARE ENGINEER || FULL STACK ENGINEER || FRONTEND DEVELOPER || BACKEND DEVELOPER</h5>
                         <h6>Sally.elgendy@hotmail.com  |  Yonkers, New York |  https://github.com/sali73  |  https://www.linkedin.com/in/salimohamed</h6>
                     </div>
                     <div className='lineTwo'></div>
@@ -19,7 +19,7 @@ const Contact = () => {
                             <br/>TECHNICAL SKILLS:  Microsoft Word , Microsoft Excel , Microsoft PowerPoint , Google Drive</p>
                             <h4>EXPERIENCE</h4>
                             <h5>General Assembly</h5>
-                            <h6>Web Development Fellow - April 2020 to Current - New York</h6>
+                            <h6>Web Development Fellow - April 2020 to July 2020 - New York</h6>
                             <ul>
                                 <li> 12 weeks of software engineering impressive training</li>
                                 <li> Create Apps Using Front-end and Back-end Tools, Projectsexamples:</li>
