@@ -141,7 +141,7 @@ h6 , h5{
     margin-left:50px;
     padding: 50px ;
     width: 900px;
-    background-image: linear-gradient(#fbfafd , #f3f0fa, #f7f5fc , #fbfafd , white);
+    background-image: linear-gradient(#fbfafd, white);
 }
 .resumeTop{
     text-align: center;
@@ -211,6 +211,9 @@ a{
   .navBottom > li : hover{
   color: white;
   }
+  .btn{
+    margin-left: 15px;
+   }
   main{
     font-size: 1.2em;
     margin-top: 60px;
