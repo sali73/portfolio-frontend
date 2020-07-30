@@ -96,8 +96,10 @@ h6 , h5{
     line-height: 200%;
 }
 .projectsimg{
-    width: 310px;
+    width: 312px;
     height: 200px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
 }
 .project_cards{
     display: flex;
