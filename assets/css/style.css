@@ -56,6 +56,9 @@ nav{
 .navBottom h6{
     color: #4A5665;
 }
+/*---------------------*/
+/*home feComponent*/
+/*--------------------*/
 main{
     grid-area: main;
     font-size: 28px;
@@ -122,6 +125,8 @@ h6 , h5{
     font-size: 25px;
 }
 /*---------------------*/
+/*myoffer feComponent*/
+/*--------------------*/
 .myoffer{
     margin-left: 30px;
     font-size: .5em;
@@ -137,6 +142,9 @@ h6 , h5{
     font-size: 1.1rem;
     margin-top: 40px;
 }
+/*---------------------*/
+/*contact feComponent*/
+/*--------------------*/
 .contact{
      height: 1000px;
  }
@@ -148,6 +156,9 @@ h6 , h5{
 }
 .resumeTop{
     text-align: center;
+}
+.contact-h5 > h5{
+  color: #000000;
 }
 .lineTwo {
     width: 770px;
@@ -179,7 +190,9 @@ h6 , h5{
 a{
     color: #B31D72;
 }
-
+/*---------------------*/
+/*mobile setup*/
+/*--------------------*/
 @media (max-width: 600px) {
     *{
         font-size: 12px;
