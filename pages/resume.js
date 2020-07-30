@@ -26,7 +26,7 @@ const Resume = () => {
                             <li> Create Apps Using Front-end and Back-end Tools, Projectsexamples:</li>
                             <ul >
                                 <li><a href='https://ces-store.netlify.app/shop'>Women Bags Store</a></li>
-                                <li><a href='https://happy-golick-39a59e.netlify.app/'>Bookmarkd App</a></li>
+                                <li><a href='https://happy-golick-39a59e.netlify.app/'>Tic Tac Toe Game</a></li>
                                 <li><a href='https://orlando-full-stack-app.herokuapp.com/tour'>Orlando Tour App</a></li>
                             </ul>
                         </ul>
