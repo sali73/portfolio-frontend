@@ -46,7 +46,7 @@ render(){
                 </div>
                 <div className='portfolio2'>
                     <div className='partone'>
-                        <small>Now<br/><br/><br/><br/><br/>2020<br/><br/><br/><br/><br/> <br/>Projects</small>
+                        <small>Now<br/><br/><br/><br/>2020<br/><br/><br/><br/><br/><br/><br/> <br/>Projects</small>
                     </div>
                     <div className='parttwo'>
                             <h6><big>Currently open to co-operation on new and existing projects.</big><br/>
