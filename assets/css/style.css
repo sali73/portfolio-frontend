@@ -57,7 +57,7 @@ nav{
     color: #4A5665;
 }
 /*---------------------*/
-/*home feComponent*/
+/*home Component*/
 /*--------------------*/
 main{
     grid-area: main;
@@ -99,7 +99,7 @@ h6 , h5{
     line-height: 200%;
 }
 .projectsimg{
-    width: 312px;
+    width: 313px;
     height: 200px;
     border-top-right-radius: 10%;
     border-top-left-radius: 10%;
@@ -112,8 +112,8 @@ h6 , h5{
 .card{
     margin-bottom: 30px;
     margin-top: 30px;
-    border: 2px solid rgba(250, 206, 152, .6) ;
-    box-shadow: 5px 10px 8px rgba(250, 206, 152, .6) ;
+    border: 2px solid rgba(	113, 18, 72 , .3) ;
+    box-shadow: 5px 10px 8px rgba(113, 18, 72, .3) ;
     border-radius: 10%;
 }
 .btn{
@@ -125,7 +125,7 @@ h6 , h5{
     font-size: 25px;
 }
 /*---------------------*/
-/*myoffer feComponent*/
+/*myoffer Component*/
 /*--------------------*/
 .myoffer{
     margin-left: 30px;
@@ -143,7 +143,7 @@ h6 , h5{
     margin-top: 40px;
 }
 /*---------------------*/
-/*contact feComponent*/
+/*contact Component*/
 /*--------------------*/
 .contact{
      height: 1000px;
@@ -191,7 +191,7 @@ a{
     color: #B31D72;
 }
 /*---------------------*/
-/*mobile setup*/
+/*  mobile setup   */
 /*--------------------*/
 @media (max-width: 600px) {
     *{
