@@ -112,7 +112,7 @@ h6 , h5{
 .card{
     margin-bottom: 30px;
     margin-top: 30px;
-    border: 2px solid rgba(	113, 18, 72 , .3) ;
+    border: 2px solid rgba(	113, 18, 72 , .4) ;
     box-shadow: 5px 10px 8px rgba(113, 18, 72, .3) ;
     border-radius: 10%;
 }
