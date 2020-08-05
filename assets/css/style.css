@@ -1,4 +1,6 @@
-
+*{
+  font-family: "Times New Roman", Times, serif;
+}
 .grid{
     display: grid;
     grid-template-areas:
