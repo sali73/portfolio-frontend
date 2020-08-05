@@ -22,7 +22,6 @@ const Offer = () => {
                         <h5><img src='https://icons.iconarchive.com/icons/cornmanthe3rd/plex/24/Other-html-5-icon.png'/> FRONT-END ENGINEERING</h5>
                         <h6>My current experience and skills in front-end includes:</h6>
                         <ul>
-                        HTML, CSS, SASS, JavaScript, jQuery, Bootstrap, React JS, Next.js, Node.js, Angular JS, RESTful Web API’s , MySQL, MongoDb and Postgres , JSON, AJAX, Python, Django, Express
                             <li><h6> HTML, CSS, SASS</h6></li>
                             <li><h6> javascript</h6></li>
                             <li><h6> jQuery</h6></li>
