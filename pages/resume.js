@@ -16,7 +16,7 @@ const Resume = () => {
                         <h4>SUMMARY</h4>
                         <p>I am a strong foundation in software engineering and programming principles across multiple platforms. Experienced in object-oriented programming, developing, testing/debugging code, and designing interfaces.Quick learner and a successful master of new technologies.</p>
                         <h4>SKILLS</h4>
-                        <p>PROGRAMING LANGUAGES:  javascript , HTML,CSS/sass,PostgreSQL, MySQL MongoDB , python , Django , express , React ,Rube , Go , Query
+                        <p>PROGRAMING LANGUAGES:  HTML, CSS ,SASS, JavaScript,  jQuery ,Bootstrap , React JS, Next.js, Node.js, Angular JS , RESTful Web API’s , MySQL, MongoDb and Postgres , JSON, AJAX , Python, Django ,Express ,
                         <br/>TECHNICAL SKILLS:  Microsoft Word , Microsoft Excel , Microsoft PowerPoint , Google Drive</p>
                         <h4>EXPERIENCE</h4>
                         <h5>General Assembly</h5>

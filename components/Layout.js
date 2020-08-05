@@ -20,7 +20,7 @@ const Layout = (props) => {
                         </div>
                          <div className='navMid'>
                             <a href={'/'}>PORTFOLIO ></a>
-                            <a href={'/my_offer'} >MY OFFER</a>
+                            <a href={'/my_offer'} >What I Offer</a>
                            <a href={'/contact'} >CONTACT ME</a>
                            <a href={'/resume'}>MY RESUME</a>
                         </div>
