@@ -16,10 +16,10 @@ const Resume = () => {
                         <h4>SUMMARY</h4>
                         <p>I am a strong foundation in software engineering and programming principles across multiple platforms. Experienced in object-oriented programming, developing, testing/debugging code, and designing interfaces.Quick learner and a successful master of new technologies.</p>
                         <h4>SKILLS</h4>
-                        <p><big>PROGRAMING LANGUAGES: </big><br/> HTML, CSS, SASS, JavaScript, jQuery, Bootstrap, React JS, Next.js, Node.js, Angular JS, RESTful Web API’s , MySQL, MongoDb and Postgres , JSON, AJAX, Python, Django, Express .<br/><br/>
+                        <p><big>PROGRAMING LANGUAGES: </big><br/> HTML, CSS, SASS, JavaScript, jQuery, Bootstrap, React JS, Next.js, Node.js, Angular JS, RESTful Web API’s , MySQL, MongoDb and Postgres , JSON, AJAX, Python, Django, Express .<br/>
                         <big>TECHNICAL SKILLS:</big> <br/> Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Google Drive .</p>
                         <h4>EXPERIENCE</h4>
-                        <h5>General Assembly</h5>
+                        <h5>- General Assembly</h5>
                         <h6>Web Development Fellow - April 2020 to Current - New York</h6>
                         <ul>
                             <li> 12 weeks of software engineering impressive training</li>
@@ -29,9 +29,9 @@ const Resume = () => {
                                 <li><a href='https://happy-golick-39a59e.netlify.app/'>Tic Tac Toe Game</a></li>
                                 <li><a href='https://orlando-full-stack-app.herokuapp.com/tour'>Orlando Tour App</a></li>
                                 <li><a href='https://5f27341cdc0ccbdb8132c466--festive-mirzakhani-cba358.netlify.app/'>College App</a></li>     
-                        </ul><br/>
                         </ul>
-                        <h5>El Marwa Food Industries</h5>
+                        </ul>
+                        <h5> - El Marwa Food Industries</h5>
                         <h6>Junior front end developer - May 2012 to September 2016 - Cairo,Egypt</h6>
                         <ul>
                             <li>Implemented web designs and outlook through programming languages HTML, CSS , jQuery and JavaScript frameworks to renew and update the industrie website <a href='http://www.elmarwa.com'>elmarwa</a></li>
