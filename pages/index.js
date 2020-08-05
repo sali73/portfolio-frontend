@@ -39,7 +39,7 @@ render(){
             <div className= 'portfolio'>
                 <div className= 'port'>
                     <h1> PORTFOLIO</h1>
-                    <h6> <big>About me</big> I am a strong foundation in software engineering and programming principles across multiple
+                    <h6> <big>About me </big> I am a strong foundation in software engineering and programming principles across multiple
                     platforms.  Experienced in object-oriented programming, developing, testing / debugging code, and
                     designing interfaces.Quick learner and a successful master of new technologies.
                     See my works below.</h6>
