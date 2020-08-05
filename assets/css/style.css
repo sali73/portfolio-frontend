@@ -39,7 +39,7 @@ nav{
 .navMid >a{
     display: flex;
     margin-top:27px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
     font-family:'Times New Roman'
 }
@@ -100,7 +100,7 @@ h6 , h5{
     line-height: 200%;
 }
 .projectsimg{
-    width: 313px;
+    width: 314px;
     height: 200px;
     border-top-right-radius: 10%;
     border-top-left-radius: 10%;
