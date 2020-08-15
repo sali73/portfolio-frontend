@@ -22,7 +22,7 @@ const Layout = (props) => {
                             <a href={'/'}>PORTFOLIO ></a>
                             <a href={'/my_offer'} >What I Offer</a>
                            <a href={'/contact'} >CONTACT ME</a>
-                           <a href={'https://docs.google.com/document/d/1kTaH2bQx2KFEzSY1lM1ujMioQ3JcHNy_LVszurmZByY/edit?usp=sharing'}>MY RESUME</a>
+                           <a href={'https://docs.google.com/document/d/e/2PACX-1vQn7QWbTkiiFuM5f3oYoWdod-uufQcF-dDOT_-LDZE7w5wOwKh1iF4q5JOq3d0mHaRtpLvW3pIaJUJ6/pub'}>MY RESUME</a>
                         </div>
                         <div className='navBottom'>
                              <ul>
