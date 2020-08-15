@@ -63,7 +63,7 @@ render(){
                                     return (
                                             <>
                                                 <div className='card' style={{width: "20rem" }}key={key} >
-                                                    <iframe className='card-img-top' src={index.deployment} title="project">
+                                                    <iframe className='card-img-top' src={index.deployment} width="100%" height="300" title="project">
                                                     </iframe>
                                                     <div className="card-body">
                                                         <h4 className="card-title">{index.title}</h4>
