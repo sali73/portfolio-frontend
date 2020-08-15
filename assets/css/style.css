@@ -23,7 +23,7 @@ nav{
 }
 .navTop {
     padding-top: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 18px;
 }
 .navTop h4{
     color: #B31D72;
@@ -38,13 +38,13 @@ nav{
 }
 .navMid >a{
     display: flex;
-    margin-top:27px;
+    margin-top:23px;
     font-size: 1.4em;
     font-weight: bold;
     font-family:'Times New Roman'
 }
 .navBottom{
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: -43px;
 }
 .navBottom li {
