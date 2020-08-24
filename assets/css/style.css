@@ -105,6 +105,9 @@ h6 , h5{
     border-top-right-radius: 13%;
     border-top-left-radius: 13%;
 }
+.btn {
+    margin-left: 10px;
+}
 .project_cards{
     display: flex;
     flex-wrap:wrap;
