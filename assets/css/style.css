@@ -38,13 +38,13 @@ nav{
 }
 .navMid >a{
     display: flex;
-    margin-top:32px;
+    margin-top:25px;
     font-size: 1.4em;
     font-weight: bold;
     font-family:'Times New Roman'
 }
 .navBottom{
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: -43px;
 }
 .navBottom li {
