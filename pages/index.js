@@ -12,7 +12,7 @@ export default class Index extends Component {
 static async getInitialProps (){
     let res, data, projects;
     try{
-        res = await fetch('https://django-react-portfolio-app.herokuapp.com/api/v1/project/');
+        res = await fetch('https://new-portfolio-django-backend.herokuapp.com/api/v1/project/');
         data = await res.json();
         projects = data.objects;
     } catch(error){
@@ -25,7 +25,7 @@ static async getInitialProps (){
 async componentDidMount(){
         let res , data , projects ;
      try{
-        res = await fetch('https://django-react-portfolio-app.herokuapp.com/api/v1/project/');
+        res = await fetch('https://new-portfolio-django-backend.herokuapp.com/api/v1/project/');
         data = await res.json();
         projects = data.objects;
         this.setState([projects])
@@ -66,7 +66,8 @@ render(){
                                                         <img className='card-img-top projectsimg'src={index.image} alt="photo"/>
                                                     <div className="card-body">
                                                         <h4 className="card-title">{index.title}</h4>
-                                                        <button type="button" className="btn btn-light"><a href={index.code} ><h6> Code</h6> </a></button>
+                                                        <button type="button" className="btn btn-light"><a href={index.frontend} ><h6> Frontend Code</h6> </a></button>
+                                                        <button type="button" className="btn btn-light"><a href={index.backend} ><h6> Backend Code</h6> </a></button>
                                                         <button type="button" className="btn btn-lightbtn btn-light"><a href= {index.deployment}><h6>Deployment </h6></a></button>
                                                     </div>
                                                 </div>
