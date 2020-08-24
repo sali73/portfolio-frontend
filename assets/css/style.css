@@ -100,10 +100,10 @@ h6 , h5{
     line-height: 200%;
 }
 .projectsimg{
-    width: 362px;
+    width: 363px;
     height: 200px;
-    border-top-right-radius: 10%;
-    border-top-left-radius: 10%;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
 }
 .project_cards{
     display: flex;
@@ -117,10 +117,6 @@ h6 , h5{
     box-shadow: 5px 10px 8px rgba(113, 18, 72, .3) ;
     border-radius: 10%;
 }
-/*.btn{*/
-/*    margin-left: 25px;*/
-/*    margin-bottom: 5px;*/
-/*}*/
 .card-title{
     text-align: center;
     padding: 10px;
