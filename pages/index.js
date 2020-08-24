@@ -62,7 +62,7 @@ render(){
                                 ? this.props.projects.map((index, key) => {
                                     return (
                                             <>
-                                                <div className='card' style={{width: "22rem" }} key={key} >
+                                                <div className='card' style={{width: "24rem" }} key={key} >
                                                         <img className='card-img-top projectsimg'src={index.image} alt="photo"/>
                                                     <div className="card-body">
                                                         <h4 className="card-title">{index.title}</h4>
