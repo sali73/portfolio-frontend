@@ -62,13 +62,15 @@ render(){
                                 ? this.props.projects.map((index, key) => {
                                     return (
                                             <>
-                                                <div className='card' style={{width: "30rem" }}key={key} >
+                                                <div className='card' style={{width: "30rem" }} key={key} >
                                                         <img className='card-img-top projectsimg'src={index.image} alt="photo"/>
                                                     <div className="card-body">
                                                         <h4 className="card-title">{index.title}</h4>
+                                                        <div style={{display: "flex" }}>
                                                         <button type="button" className="btn btn-light"><a href={index.frontend} ><h6> Frontend Code</h6> </a></button>
                                                         <button type="button" className="btn btn-light"><a href={index.backend} ><h6> Backend Code</h6> </a></button>
                                                         <button type="button" className="btn btn-lightbtn btn-light"><a href= {index.deployment}><h6>Deployment </h6></a></button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </>
