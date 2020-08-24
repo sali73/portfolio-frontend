@@ -119,6 +119,7 @@ h6 , h5{
 }
 .btn{
     margin-left: 25px;
+    display: flex;
 }
 .card-title{
     text-align: center;
