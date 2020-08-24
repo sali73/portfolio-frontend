@@ -66,7 +66,7 @@ render(){
                                                         <img className='card-img-top projectsimg'src={index.image} alt="photo"/>
                                                     <div className="card-body">
                                                         <h4 className="card-title">{index.title}</h4>
-                                                        <div style={{display: "flex", flexWrap:"wrap", justifyContent:"center" }}>
+                                                        <div style={{display: "flex", flexWrap:"wrap", justifyContent:"center", margin:'5px' }}>
                                                         <button type="button" className="btn btn-light"><a href={index.frontend} ><h6> Frontend Code</h6> </a></button>
                                                         <button type="button" className="btn btn-light"><a href={index.backend} ><h6> Backend Code</h6> </a></button>
 
