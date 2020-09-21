@@ -63,7 +63,7 @@ render(){
                                     return (
                                             <>
                                                 <div className='card' style={{width: "22rem" }} key={key} >
-                                                        <img className='card-img-top projectsimg'src={index.image} alt="photo"/>
+                                                        <img className='card-img-top projects_img'src={index.image} alt="photo"/>
                                                     <div className="card-body">
                                                         <h4 className="card-title">{index.title}</h4>
                                                         <div style={{display: "flex", flexWrap:"wrap", justifyContent:"center", margin:'5px' }}>
