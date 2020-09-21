@@ -81,7 +81,7 @@ render(){
                                     return (
                                             <>
                                                 <div className='card' style={{width: "20rem" }}key={key} >
-                                                        <img className='card-img-top project_img'src={index.image} alt=""/>
+                                                        <img className='card-img-top projectsimg'src={index.image} alt=""/>
                                                     <div className="card-body">
                                                         <h4 className="card-title">{index.title}</h4>
                                                         <button type="button" className="btn btn-light"><a href={index.code} ><h6> App Code</h6> </a></button>
