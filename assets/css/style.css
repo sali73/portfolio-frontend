@@ -287,8 +287,8 @@ a{
     background-color: white;
     margin-left: -20px;
   }
-  .projectsimg{
-    width: 200px;
+  .project_img {
+    width: 100px;
     height: 140px;
   }
   .project_cards h4 {
