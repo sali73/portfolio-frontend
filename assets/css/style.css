@@ -100,7 +100,7 @@ h6 , h5{
     line-height: 200%;
 }
 .projectsimg{
-    width: 323px;
+    width: 325px;
     height: 190px;
     border-top-right-radius: 13%;
     border-top-left-radius: 13%;
@@ -288,7 +288,7 @@ a{
     margin-left: -20px;
   }
   .projectsimg{
-    width: 240px;
+    width: 200px;
     height: 150px;
   }
   .project_cards h4 {
