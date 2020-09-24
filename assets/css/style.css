@@ -1,3 +1,4 @@
+
 .grid{
     display: grid;
     grid-template-areas:
@@ -41,7 +42,7 @@ nav{
     margin-top:25px;
     font-size: 1.4em;
     font-weight: bold;
-    font-family:'Times New Roman'
+    font-family:'Times New Roman';
 }
 .navBottom{
     margin-top: 40px;
@@ -56,6 +57,10 @@ nav{
 .navBottom h6{
     color: #4A5665;
 }
+a{
+    color: #B31D72;
+}
+
 /*---------------------*/
 /*home Component*/
 /*--------------------*/
@@ -65,25 +70,35 @@ main{
     width: 700px;
     margin-top: 60px;
 }
-.port h6{
-    padding-top: 25px;
+.port{
+    width: 960px;
 }
-h1{
-    text-shadow: 2px 2px 4px #000000;
+.port h6{
+    margin-top: 45px;
+    font-size: large;
+    font-family: 'Viga', sans-serif;
+    background-color: rgba(250, 250, 250, .8);
+    padding: 25px;
+}
+.port h1{
+    text-shadow: 0px 4px 10px #384A68;
     color: white;
-     padding-bottom: 25px;
+    padding-bottom: 35px;
+    font-size: 2,1px;
+    margin-top: -20px;
 }
 big{
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #B31D72;
 }
-.partone{
+.part-one{
     color:#7fa6ac ;
     font-size: 20px;
 }
 .portfolio {
     display: grid;
-    grid-template-rows: 240px auto;
+    grid-template-rows: 290px auto;
 }
 .portfolio2{
     display: grid;
@@ -92,22 +107,34 @@ big{
 .line {
     width: 912px;
     height: 30px;
-    border-bottom: 1px solid black;
-    margin-bottom: 30px;
-    color: #7f797c;
+    border-bottom: 1px solid #dfdddd;
+    margin-bottom: 70px;
+    margin-top: -30px;
+}
+.part-two{
+    margin-top: 50px;
 }
 h6 , h5{
-    line-height: 200%;
+    line-height: 250%;
 }
 .projects_img{
     width: 350px;
-    height: 190px;
-    border-top-right-radius: 13%;
-    border-top-left-radius: 13%;
+    height: 226px;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+.bottoms{
+    float: right;
+    margin-top: 50px;
+}
+.bottoms a{
+    color: #7f797c;
+    font-size: 16px
 }
 .btn {
     margin-left: 20px;
     margin-bottom: 10px;
+    color: #7f797c;
 }
 .project_cards{
     display: flex;
@@ -115,85 +142,100 @@ h6 , h5{
     justify-content: space-around;
 }
 .card{
-    margin-bottom: 30px;
-    margin-top: 30px;
-    border: 2px solid rgba(	113, 18, 72 , .4) ;
-    box-shadow: 5px 10px 8px rgba(113, 18, 72, .3) ;
-    border-radius: 10%;
+    margin-top: 50px;
+    border: 2px solid rgba(	113, 18, 72 , .1) ;
+    box-shadow: 5px 10px 20px rgba(113, 18, 72, .3) ;
 }
 .card-title{
     text-align: center;
     padding: 10px;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bolder;
     font-family: Lucida Console, Courier, monospace;
+    color: #7f797c;
 }
+
+
 /*---------------------*/
-/*myoffer Component*/
+/*my-offer Component*/
 /*--------------------*/
-.myoffer{
+.my-offer li h6{
+    font-size: 1.3em;
+}
+.my-offer-header{
+    color: #B31D72
+}
+.my-offer{
     margin-left: 30px;
     font-size: .5em;
     height: auto;
 }
-.myoffer h5{
-    color: #4A5665 ;
-    margin-top: 20px;
+.my-offer h5{
     color: #B31D72;
+    margin-top: 70px;
 }
-.myoffer p{
-   margin-bottom: 20px;
-    font-size: 1.1rem;
-    margin-top: 40px;
+.my-offer p{
+    margin-bottom: 20px;
+    margin-top: 45px;
+    background-color: rgba(250, 250, 250, .8);
+    width: 900px;
+    font-size: large;
+    font-family: 'Viga', sans-serif;
+    padding: 25px;
+    line-height: 2;
 }
+
 /*---------------------*/
 /*contact Component*/
 /*--------------------*/
 .contact{
      height: 1000px;
  }
-.jumbotron{
-    margin-left:50px;
-    padding: 50px ;
-    width: 900px;
-    background-image: linear-gradient(#fbfafd, white);
+.contact-h5 h5{
+    line-height:normal;
 }
-.resumeTop{
-    text-align: center;
-}
-.contact-h5 > h5{
-  color: #000000;
-  font-family:'Times New Roman'
-}
-.lineTwo {
-    width: 770px;
-    height: 47px;
-    border-bottom: 1px solid #7f797c;
-}
-.resumeBottom > h4{
-    text-decoration: underline;
-    color: #B31D72;
-    padding-top: 30px;
-}
-.resumeBottom > p{
-   font-size: .6em;
-}
-.resumeBottom > ul li{
-   font-size: .6em;
-}
-.resumeBottom  h5{
-   margin-bottom: -10px;
-    font-weight: bolder ;
-}
-.edu{
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-.edu li{
-    line-height: 200%;
-}
-a{
-    color: #B31D72;
-}
+
+/*.jumbotron{*/
+/*    margin-left:50px;*/
+/*    padding: 50px ;*/
+/*    width: 900px;*/
+/*    background-image: linear-gradient(#fbfafd, white);*/
+/*}*/
+/*.resumeTop{*/
+/*    text-align: center;*/
+/*}*/
+/*.contact-h5 > h5{*/
+/*  color: #000000;*/
+/*  font-family:'Times New Roman'*/
+/*}*/
+/*.lineTwo {*/
+/*    width: 770px;*/
+/*    height: 47px;*/
+/*    border-bottom: 1px solid #7f797c;*/
+/*}*/
+/*.resumeBottom > h4{*/
+/*    text-decoration: underline;*/
+/*    color: #B31D72;*/
+/*    padding-top: 30px;*/
+/*}*/
+/*.resumeBottom > p{*/
+/*   font-size: .6em;*/
+/*}*/
+/*.resumeBottom > ul li{*/
+/*   font-size: .6em;*/
+/*}*/
+/*.resumeBottom  h5{*/
+/*   margin-bottom: -10px;*/
+/*    font-weight: bolder ;*/
+/*}*/
+/*.edu{*/
+/*    padding-top: 20px;*/
+/*    padding-bottom: 40px;*/
+/*}*/
+/*.edu li{*/
+/*    line-height: 200%;*/
+/*}*/
+
 /*---------------------*/
 /*  mobile setup   */
 /*--------------------*/
@@ -241,7 +283,7 @@ a{
   .grid{
     background-color: white;
   }
-  .myoffer{
+  .my-offer{
     margin-left: 50px;
     font-size: .5em;
     height: auto;
@@ -255,7 +297,7 @@ a{
     font-size: 1.8em;
     border-radius:5% ;
   }
-  .myimg{
+  .my-img{
     width: 140px;
     border-radius: 50%;
     padding-bottom: 15px;
@@ -274,7 +316,7 @@ a{
     border-bottom: 1px solid black;
     margin-bottom: 30px;
   }
-  .myoffer {
+  .my-offer {
     width: 350px;
   }
   .lineTwo{

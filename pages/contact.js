@@ -5,8 +5,10 @@ const Contact = () => {
         <>
             <Layout>
                 <div className='contact'>
-                    <h1>CONTACT ME</h1>
-                    <div className='myoffer'>
+                    <div className="port ">
+                        <h1>CONTACT ME</h1>
+                    </div>
+                    <div className='my-offer'>
                         <p>I am available for hire and open to any ideas of cooperation.</p>
                         <ul className='contact-h5'>
                             <li><h5>E-mail: <a href='https://www.hotmail.com'> sally.elgendy@hotmail.com</a></h5></li>

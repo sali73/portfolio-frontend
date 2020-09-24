@@ -4,11 +4,13 @@ const Offer = () => {
     return (
             <Layout>
                 <div className='offer'>
-                    <h1>MY OFFER </h1>
+                    <div className="port ">
+                        <h1>MY OFFER </h1>
+                    </div>
                 </div>
-                <div className='myoffer'>
-                        <p>I have maintained, developed and launched multiple projects from scratch, carrying the development of its' back-end and front-end codebases.
-                        <br/>My current toolset includes Elixir Language Ruby, React,Redux and all the other various frameworks, libraries and technologies related to them.</p>
+                <div className='my-offer'>
+                        <p>I have maintained, developed and launched multiple projects from scratch, carrying the development of its' back-end and front-end code bases.
+                        My current toolset includes Elixir Language Ruby, React,Redux and all the other various frameworks, libraries and technologies related to them.</p>
                         <h5>I can help you with all the sides of your project :</h5>
                         <ul >
                             <li><h6>leading/co-developing the back-end and front-end,</h6></li>
@@ -17,10 +19,12 @@ const Offer = () => {
                             <li><h6>researching possible techs,</h6></li>
                             <li><h6>leading, launching and monitoring the project.</h6></li>
                         </ul>
-                    <div className='line'></div>
+                    <div className='line'> </div>
                     <div>
                         <h5><img src='https://icons.iconarchive.com/icons/cornmanthe3rd/plex/24/Other-html-5-icon.png'/> FRONT-END ENGINEERING</h5>
-                        <h6>My current experience and skills in front-end includes:</h6>
+                        <div className="my-offer-header">
+                            <h6>My current experience and skills in front-end includes:</h6>
+                        </div>
                         <ul>
                             <li><h6> HTML, CSS, SASS</h6></li>
                             <li><h6> javascript</h6></li>
@@ -33,10 +37,12 @@ const Offer = () => {
                             <li><h6>Ruby on Rails</h6></li>
                         </ul>
                     </div>
-                    <div className='line'></div>
+                    <div className='line'> </div>
                     <div>
                         <h5><img src='https://icons.iconarchive.com/icons/thehoth/seo/24/seo-web-code-icon.png'/> BACK-END ENGINEERING</h5>
-                        <h6>What I can do for you at that side is :</h6>
+                        <div className="my-offer-header">
+                            <h6>What I can do for you at that side is :</h6>
+                        </div>
                         <ul>
                             <li><h6> lead development of backends in Elixir/Ruby,</h6></li>
                             <li><h6> cooperation with APIs, </h6></li>
