@@ -301,6 +301,7 @@ h6 , h5{
   }
   .portfolio {
     grid-template-rows: 220px auto;
+      margin-left: 30px;
   }
   .portfolio2{
     display: grid;
