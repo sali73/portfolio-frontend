@@ -13,10 +13,10 @@ const Offer = () => {
                         My current toolset includes Elixir Language Ruby, React,Redux and all the other various frameworks, libraries and technologies related to them.</p>
                         <h5>I can help you with all the sides of your project :</h5>
                         <ul >
-                            <li><h6>leading/co-developing the back-end and front-end,</h6></li>
-                            <li><h6>mentoring the team,</h6></li>
-                            <li><h6>estimating tasks,</h6></li>
-                            <li><h6>researching possible techs,</h6></li>
+                            <li><h6>leading/co-developing the back-end and front-end.</h6></li>
+                            <li><h6>mentoring the team.</h6></li>
+                            <li><h6>estimating tasks.</h6></li>
+                            <li><h6>researching possible techs.</h6></li>
                             <li><h6>leading, launching and monitoring the project.</h6></li>
                         </ul>
                     <div className='line'> </div>
