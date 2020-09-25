@@ -246,7 +246,7 @@ h6 , h5{
         font-size: 15px;
     }
   nav{
-     width: 230px;
+     width: 290px;
      padding-top: 30px;
      height:auto;
   }
@@ -293,6 +293,8 @@ h6 , h5{
   }
   .part-two{
       margin-top: 90px;
+      font-size: large;
+      width: 600px;
   }
   .part-one{
       margin-top: 30px;
