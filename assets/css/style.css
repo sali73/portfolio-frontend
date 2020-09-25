@@ -11,7 +11,7 @@ nav{
     z-index: 1;
     overflow-x: hidden;
     padding-left: 30px;
-    width: 350px;
+    width: 310px;
     position: fixed;
     height: auto;
     color: black;
@@ -69,6 +69,7 @@ main{
     font-size: 28px;
     width: 700px;
     margin-top: 60px;
+    margin-bottom: 80px;
 }
 .port{
     width: 960px;
