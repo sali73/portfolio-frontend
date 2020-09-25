@@ -336,7 +336,7 @@ h6 , h5{
   .bottoms{
       margin-top: 5px;
       float: none;
-      margin-left: 30px;
+      margin-left: 20px;
   }
   .port h6{
       width: 900px;
@@ -354,7 +354,7 @@ h6 , h5{
   .background{
     border-bottom-right-radius: 5%;
   }
-  .contact{
+  .contact .offer{
       margin-left: 90px;
   }
 }
