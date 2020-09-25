@@ -44,12 +44,12 @@ const Offer = () => {
                             <h6>What I can do for you at that side is :</h6>
                         </div>
                         <ul>
-                            <li><h6> lead development of backends in Elixir/Ruby,</h6></li>
-                            <li><h6> cooperation with APIs, </h6></li>
-                            <li><h6> using different types of databases (like PostgreSQL, MySQL, MongoDB)</h6></li>
-                            <li><h6> python</h6></li>
-                            <li><h6>Django</h6></li>
-                            <li><h6>Java</h6></li>
+                            <li><h6> lead development of backends in Elixir/Ruby.</h6></li>
+                            <li><h6> cooperation with APIs. </h6></li>
+                            <li><h6> using different types of databases (like PostgreSQL, MySQL, MongoDB).</h6></li>
+                            <li><h6> python.</h6></li>
+                            <li><h6>Django.</h6></li>
+                            <li><h6>Java.</h6></li>
                         </ul>
                     </div>
                     <div className='line'></div>
