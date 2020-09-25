@@ -267,10 +267,10 @@ h6 , h5{
     font-weight: 900;
     font-size: 1.8em;
     padding-top : 10px;
-      margin: 30px 0px;
+      margin: 50px 0px;
    }
   .navBottom h6{
-    padding-top: 20px;
+    padding-top: 40px;
     font-size: 1.6em;
   }
    .navMid h5{
@@ -298,7 +298,7 @@ h6 , h5{
   }
   .part-two{
       margin-top: 90px;
-      font-size: x-large;
+      font-size: xx-large;
       width: 600px;
   }
   .part-one{
@@ -311,6 +311,7 @@ h6 , h5{
   .portfolio2{
     display: grid;
     grid-template-columns: 50px 400px;
+      font-size: x-large;
   }
   .line {
     width: 340px;
@@ -324,7 +325,7 @@ h6 , h5{
     border-bottom: 1px solid black;
   }
   .card{
-      height: 400px;
+      height: 300px;
       width: 600px;
   }
   .projects_img{
@@ -333,6 +334,7 @@ h6 , h5{
   }
   .bottoms{
       margin-top: 5px;
+      float: none;
   }
   .port h6{
       width: 900px;
