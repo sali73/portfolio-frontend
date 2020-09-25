@@ -278,7 +278,7 @@ h6 , h5{
     font-size: 1.6em;
   }
   .my-offer{
-    margin-left: 50px;
+    margin-left: 90px;
     font-size: .5em;
     height: auto;
     width: 800px;
@@ -335,6 +335,7 @@ h6 , h5{
   .bottoms{
       margin-top: 5px;
       float: none;
+      margin-left: 30px;
   }
   .port h6{
       width: 900px;
@@ -351,6 +352,9 @@ h6 , h5{
   }
   .background{
     border-bottom-right-radius: 5%;
+  }
+  .contact{
+      margin-left: 90px;
   }
 }
 
