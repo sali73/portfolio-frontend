@@ -301,7 +301,7 @@ h6 , h5{
   }
   .portfolio {
     grid-template-rows: 220px auto;
-      margin-left: 60px;
+      margin-left: 90px;
   }
   .portfolio2{
     display: grid;
@@ -324,7 +324,7 @@ h6 , h5{
   }
   .projects_img{
     width: 590px;
-    height: 200px;
+    height: 100px;
   }
   .bottoms{
       margin-top: 5px;
