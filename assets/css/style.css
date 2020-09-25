@@ -285,7 +285,8 @@ h6 , h5{
     width: 900px;
   }
   .my-offer p{
-      width: 500px;
+      width: 900px;
+      font-size: xx-large;
   }
   main{
     font-size: 1.2em;
@@ -355,11 +356,11 @@ h6 , h5{
   .background{
     border-bottom-right-radius: 5%;
   }
-  .contact .offer{
-      margin-left: 100px;
+  .contact{
+      margin-left: 120px;
   }
    .offer{
-      margin-left: 100px;
+      margin-left: 120px;
   }
 }
 
