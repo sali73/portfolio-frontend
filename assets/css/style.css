@@ -261,16 +261,16 @@ h6 , h5{
     }
   .navMid >a{
     font-weight: 900;
-    font-size: 1.5em;
+    font-size: 1.8em;
     padding-top : 10px;
    }
   .navBottom h6{
     padding-top: 0px;
-    font-size: 1.2em;
+    font-size: 1.6em;
   }
    .navMid h5{
     padding-top: 5px;
-    font-size: 1em;
+    font-size: 1.6em;
   }
   .my-offer{
     margin-left: 50px;
@@ -327,8 +327,8 @@ h6 , h5{
       margin-top: 5px;
   }
   .port h6{
-      width: 500px;
-      font-size: medium;
+      width: 700px;
+      font-size:x-large;
   }
    .portfolio {
     grid-template-rows: 290px auto;
