@@ -246,7 +246,7 @@ h6 , h5{
         font-size: 15px;
     }
   nav{
-     width: 290px;
+     width: 390px;
      padding-top: 30px;
      height:auto;
   }
@@ -265,7 +265,7 @@ h6 , h5{
     padding-top : 10px;
    }
   .navBottom h6{
-    padding-top: 0px;
+    padding-top: 20px;
     font-size: 1.6em;
   }
    .navMid h5{
