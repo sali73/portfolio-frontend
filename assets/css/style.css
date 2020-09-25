@@ -355,7 +355,10 @@ h6 , h5{
     border-bottom-right-radius: 5%;
   }
   .contact .offer{
-      margin-left: 90px;
+      margin-left: 100px;
+  }
+   .offer{
+      margin-left: 100px;
   }
 }
 
