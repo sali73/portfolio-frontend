@@ -5,7 +5,7 @@ const Contact = () => {
         <>
             <Layout>
                 <div className='contact'>
-                    <div className="port ">
+                    <div className="port">
                         <h1>CONTACT ME</h1>
                     </div>
                     <div className='my-offer'>
