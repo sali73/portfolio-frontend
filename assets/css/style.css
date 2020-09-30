@@ -156,6 +156,13 @@ h6 , h5{
     font-family: Lucida Console, Courier, monospace;
     color: #7f797c;
 }
+.card-footer{
+    padding:10px;
+    text-align:center;
+    width: 850px;
+    background-color: rgba(113, 18, 72, .6) ;
+    color: white;
+}
 
 /*---------------------*/
 /*my-offer Component*/
@@ -327,7 +334,7 @@ h6 , h5{
     border-bottom: 1px solid black;
   }
   .card{
-      height: 300px;
+      height: 400px;
       width: 600px;
   }
   .projects_img{
@@ -339,6 +346,10 @@ h6 , h5{
       float: none;
       margin-left: 20px;
   }
+
+.card-footer{
+    width: 400px;
+}
   .port h6{
       width: 900px;
       font-size:x-large;
