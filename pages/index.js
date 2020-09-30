@@ -78,7 +78,7 @@ render(){
                                                                     </div>
                                                                 </div>
                                                                 <div>
-                                                                     <h6 style={{ width: '850px',backgroundColor: "#B31D72", color: "white"}} > Technologies: {index.details}</h6>
+                                                                     <h6 style={{padding:'10px',textAlign:"center", width: '850px',backgroundColor: "#B31D72", color: "white"}} > Technologies: {index.details}</h6>
                                                                  </div>
                                                             </div>
                                                         </div>
