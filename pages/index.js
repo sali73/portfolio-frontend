@@ -62,27 +62,29 @@ render(){
                                             ? this.props.projects.map((index, key) => {
                                                 return (
                                                     <>
-                                                         <div className="card mb-3" style={{}}>
-                                                            <div className="row no-gutters">
-                                                                <div className="col-md-4" key={key} >
-                                                                        <img className=' projects_img 'src={index.image} alt="photo"/>
-                                                                </div>
-                                                                <div className="col-md-8">
-                                                                    <div className="card-body">
-                                                                        <h4 className="card-title">{index.title}</h4>
-                                                                         <div className="bottoms">
-                                                                            <button type="button" className="btn btn-light"><a href={index.frontend} ><h6> Frontend Code</h6> </a></button>
-                                                                            <button type="button" className=" btn btn-light"><a href={index.backend} ><h6> Backend Code</h6> </a></button>
-                                                                            <button type="button" className=" btn btn-light"><a href= {index.deployment}><h6>Deployment </h6></a></button>
-                                                                         </div>
+                                                        <div className="card" >
+                                                             <div className=" mb-3" style={{}}>
+                                                                <div className="row no-gutters">
+                                                                    <div className="col-md-4" key={key} >
+                                                                            <img className=' projects_img 'src={index.image} alt="photo"/>
                                                                     </div>
-                                                                </div>
-                                                                <div className="col-md-8">
-                                                                    <div className="card-body">
-                                                                        <h5 className="card-footer">{index.details}</h5>
+                                                                    <div className="col-md-8">
+                                                                        <div className="card-body">
+                                                                            <h4 className="card-title">{index.title}</h4>
+                                                                             <div className="bottoms">
+                                                                                <button type="button" className="btn btn-light"><a href={index.frontend} ><h6> Frontend Code</h6> </a></button>
+                                                                                <button type="button" className=" btn btn-light"><a href={index.backend} ><h6> Backend Code</h6> </a></button>
+                                                                                <button type="button" className=" btn btn-light"><a href= {index.deployment}><h6>Deployment </h6></a></button>
+                                                                             </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
+
+                                                            <div className="card-body">
+                                                                <h5 className="card-footer">{index.details}</h5>
+                                                            </div>
+
                                                         </div>
                                                     </>
                                                 )
