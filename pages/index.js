@@ -71,7 +71,7 @@ render(){
                                                                     <div className="card-body">
                                                                         <h4 className="card-title">{index.title}</h4>
                                                                          <div className="card-body">
-                                                                             {index.details}
+                                                                             <h6 style{{color: "#B31D72"}} >{index.details}</h6>
                                                                          </div>
                                                                          <div className="bottoms">
                                                                             <button type="button" className="btn btn-light"><a href={index.frontend} ><h6> Frontend Code</h6> </a></button>
