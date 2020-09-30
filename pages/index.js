@@ -70,9 +70,6 @@ render(){
                                                                 <div className="col-md-8">
                                                                     <div className="card-body">
                                                                         <h4 className="card-title">{index.title}</h4>
-                                                                         <div className ="card-footer">
-                                                                     <h6 style={{  color: "black"}} > Technologies: {index.details}</h6>
-                                                                 </div>
                                                                          <div className="bottoms">
                                                                             <button type="button" className="btn btn-light"><a href={index.frontend} ><h6> Frontend Code</h6> </a></button>
                                                                             <button type="button" className=" btn btn-light"><a href={index.backend} ><h6> Backend Code</h6> </a></button>
@@ -80,6 +77,9 @@ render(){
                                                                          </div>
                                                                     </div>
                                                                 </div>
+                                                                <div className ="card-footer">
+                                                                     <h6 style={{ backgroundColor: "#B31D72", , color: "black"}} > Technologies: {index.details}</h6>
+                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </>
