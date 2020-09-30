@@ -160,8 +160,8 @@ h6 , h5{
     padding:10px;
     text-align:center;
     width: 850px;
-    background-color: #7f797c  ;
-    color:rgba(113, 18, 72, .6) ;
+    background-color: rgba(113, 18, 72, .6) ;
+    color: white;
 }
 
 /*---------------------*/
