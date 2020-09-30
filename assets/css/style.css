@@ -144,7 +144,7 @@ h6 , h5{
 .card{
     margin-top: 70px;
     border: 2px solid rgba(	113, 18, 72 , .3) ;
-    box-shadow: 5px 10px 20px rgba(113, 18, 72, .2) ;
+    box-shadow: 5px 10px 20px rgba(113, 18, 72, .6) ;
     max-width: 850px;
     height: 260px;
 }
