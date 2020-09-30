@@ -82,7 +82,7 @@ render(){
                                                             </div>
 
                                                             <div className="card-body">
-                                                                <h5 className="card-footer">{index.details}</h5>
+                                                                {index.details}
                                                             </div>
 
                                                         </div>
