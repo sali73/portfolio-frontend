@@ -77,8 +77,8 @@ render(){
                                                                          </div>
                                                                     </div>
                                                                 </div>
-                                                                <div className ="card-footer">
-                                                                     <h6 style={{ backgroundColor: "#B31D72", color: "black"}} > Technologies: {index.details}</h6>
+                                                                <div>
+                                                                     <h6 style={{ width: '850px',backgroundColor: "#B31D72", color: "black"}} > Technologies: {index.details}</h6>
                                                                  </div>
                                                             </div>
                                                         </div>
