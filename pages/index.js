@@ -62,7 +62,7 @@ render(){
                                             ? this.props.projects.map((index, key) => {
                                                 return (
                                                     <>
-                                                         <div className="card mb-3">
+                                                         <div className="card ">
                                                             <div className="row no-gutters">
                                                                 <div className="col-md-4" key={key} >
                                                                         <img className=' projects_img 'src={index.image} alt="photo"/>
