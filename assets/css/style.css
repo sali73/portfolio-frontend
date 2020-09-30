@@ -44,7 +44,7 @@ nav{
     font-family:'Times New Roman';
 }
 .navBottom{
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: -43px;
 }
 .navBottom li {
@@ -125,7 +125,7 @@ h6 , h5{
 }
 .bottoms{
     float: right;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 .bottoms a{
     color: #7f797c;
