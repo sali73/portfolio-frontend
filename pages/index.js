@@ -75,7 +75,11 @@ render(){
                                                                             <button type="button" className=" btn btn-light"><a href={index.backend} ><h6> Backend Code</h6> </a></button>
                                                                             <button type="button" className=" btn btn-light"><a href= {index.deployment}><h6>Deployment </h6></a></button>
                                                                          </div>
-                                                                         <h4 className="card-title">{index.details}</h4>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="col-md-8">
+                                                                    <div className="card-body">
+                                                                        <h5 className="card-footer">{index.details}</h5>
                                                                     </div>
                                                                 </div>
                                                             </div>
