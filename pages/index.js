@@ -76,10 +76,11 @@ render(){
                                                                             <button type="button" className=" btn btn-light"><a href= {index.deployment}><h6>Deployment </h6></a></button>
                                                                          </div>
                                                                     </div>
-                                                                </div>
-                                                                 <div className="card-body">
+                                                                     <div className="card-body">
                                                                      <h6 style={{ backgroundColor: "#B31D72", color: "white"}} > Technologies: {index.details}</h6>
                                                                  </div>
+                                                                </div>
+
                                                             </div>
                                                         </div>
                                                     </>
