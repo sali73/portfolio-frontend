@@ -77,7 +77,7 @@ render(){
                                                                          </div>
                                                                     </div>
                                                                      <div className="card-body">
-                                                                     <h6 style={{ backgroundColor: "#B31D72", color: "white"}} > Technologies: {index.details}</h6>
+                                                                     <h6 style={{ backgroundColor: "#B31D72", , color: "white"}} > Technologies: {index.details}</h6>
                                                                  </div>
                                                                 </div>
 
