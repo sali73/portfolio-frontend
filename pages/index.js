@@ -62,7 +62,7 @@ render(){
                                             ? this.props.projects.map((index, key) => {
                                                 return (
                                                     <>
-                                                         <div className="card mb-3" style={{}}>
+                                                         <div className="card mb-3">
                                                             <div className="row no-gutters">
                                                                 <div className="col-md-4" key={key} >
                                                                         <img className=' projects_img 'src={index.image} alt="photo"/>
@@ -76,11 +76,10 @@ render(){
                                                                             <button type="button" className=" btn btn-light"><a href= {index.deployment}><h6>Deployment </h6></a></button>
                                                                          </div>
                                                                     </div>
-                                                                     <div className="card-body">
+                                                                </div>
+                                                                <div className="row-md-8">
                                                                      <h6 style={{ backgroundColor: "#B31D72", , color: "white"}} > Technologies: {index.details}</h6>
                                                                  </div>
-                                                                </div>
-
                                                             </div>
                                                         </div>
                                                     </>
