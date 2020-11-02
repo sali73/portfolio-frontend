@@ -11,7 +11,7 @@ const Contact = () => {
                     <div className='my-offer'>
                         <p>I am available for hire and open to any ideas of cooperation.</p>
                     <div>
-                    <form action="https://formspree.io/f/mknpbvdj" method="post" enctype="text/plain">
+                    <form action="https://formspree.io/f/mknpbvdj" method="POST" >
                             Name:<br/>
                             <input type="text" name="name" /><br/>
                             E-mail:<br/>
@@ -20,8 +20,8 @@ const Contact = () => {
                             <input type='radio' name="gender" value="female" /> Female <br/>
                             Comment:<br/>
                             <input type="text" name="comment" size="50" /><br/><br/>
-                            <input type="submit" value="Send" />
-                            <input type="reset" value="Reset" />
+                            <button type="submit" > Submit></button>
+                            <button type="reset"> Reset </button>
                     </form>
 
                     </div>
