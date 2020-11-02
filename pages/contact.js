@@ -16,8 +16,8 @@ const Contact = () => {
                             <input type="text" name="name" /><br/>
                             E-mail:<br/>
                             <input type="text" name="mail" /><br/>
-                            <input type='redio' name="gender" value="male" /> Male <br/>
-                            <input type='redio' name="gender" value="female" /> Female <br/>
+                            <input type='radio' name="gender" value="male" /> Male <br/>
+                            <input type='radio' name="gender" value="female" /> Female <br/>
                             Comment:<br/>
                             <input type="text" name="comment" size="50" /><br/><br/>
                             <input type="submit" value="Send" />
