@@ -7,21 +7,32 @@ const Contact = () => {
                 <div className='contact'>
                     <div className="port">
                         <h1>CONTACT ME</h1>
-                    </div>    
+                    </div>   
+
                     <div className='my-offer'>
                         <p>I am available for hire and open to any ideas of cooperation.</p>
                     <div>
+
                     <form action="https://formspree.io/f/mknpbvdj" method="POST" >
-                            Name:<br/>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
                             <input type="text" name="name" /><br/>
-                            E-mail:<br/>
+                        </div>
+                        <div class="form-group">
+                            <label for="mail">E-mail:</label>
                             <input type="text" name="mail" /><br/>
-                            <input type='radio' name="gender" value="male" /> Male <br/>
-                            <input type='radio' name="gender" value="female" /> Female <br/>
-                            Comment:<br/>
-                            <input type="text" name="comment" size="50" /><br/><br/>
-                            <button type="submit" > Submit></button>
-                            <button type="reset"> Reset </button>
+                        </div>
+                    
+                        <input type='radio' name="gender" value="male" /> Male <br/>
+                        <input type='radio' name="gender" value="female" /> Female <br/>
+
+                        <div class="form-group">
+                            <label for="comment">Comment:</label>
+                            <textarea name="comment" cols='30' rows='10' ></textarea><br/>
+                        </div>
+                         
+                        <button type="submit" > Submit</button>
+                        <button type="reset"> Reset </button>
                     </form>
 
                     </div>
