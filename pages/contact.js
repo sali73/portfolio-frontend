@@ -11,11 +11,13 @@ const Contact = () => {
                     <div className='my-offer'>
                         <p>I am available for hire and open to any ideas of cooperation.</p>
                     <div>
-                    <form action="mailto:sally.elgendy@hotmail.com" method="post" enctype="text/plain">
+                    <form action="MAILTO:sally.elgendy@hotmail.com" method="post" enctype="text/plain">
                             Name:<br/>
                             <input type="text" name="name" /><br/>
                             E-mail:<br/>
                             <input type="text" name="mail" /><br/>
+                            <input type='redio' name="gender" value="male"> Male <br/>
+                            <input type='redio' name="gender" value="female"> Female <br/>
                             Comment:<br/>
                             <input type="text" name="comment" size="50" /><br/><br/>
                             <input type="submit" value="Send" />
