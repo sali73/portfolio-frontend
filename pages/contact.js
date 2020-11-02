@@ -1,41 +1,50 @@
 import Layout from  '../components/Layout'
+import React from "react";
 
-const Contact = () => {
+export default class MyForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.submitForm = this.submitForm.bind(this);
+    this.state = {
+      status: ""
+    };
+  }
+
+  render() {
+    const { status } = this.state;
     return (
-        <>
-            <Layout>
-                <div className='contact'>
-                    <div className="port">
-                        <h1>CONTACT ME</h1>
-                    </div>    
-                    <div className='my-offer'>
-                        <p>I am available for hire and open to any ideas of cooperation.</p>
-                    <div>
-                    <form action="MAILTO:sally.elgendy@hotmail.com" method="post" enctype="text/plain">
-                            Name:<br/>
-                            <input type="text" name="name" /><br/>
-                            E-mail:<br/>
-                            <input type="text" name="mail" /><br/>
-                            <input type='radio' name="gender" value="male" /> Male <br/>
-                            <input type='radio' name="gender" value="female" /> Female <br/>
-                            Comment:<br/>
-                            <input type="text" name="comment" size="50" /><br/><br/>
-                            <input type="submit" value="Send" />
-                            <input type="reset" value="Reset" />
-                    </form>
+      <form
+        onSubmit={this.submitForm}
+        action="https://formspree.io/f/mknpbvdj"
+        method="POST"
+      >
+        
+        <label>Email:</label>
+        <input type="email" name="email" />
+        <label>Message:</label>
+        <input type="text" name="message" />
+        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+      </form>
+    );
+  }
 
-                    </div>
-                    <ul className='contact-h5'>
-                        <li><h5>E-mail: <a href='https://www.hotmail.com'> sally.elgendy@hotmail.com</a></h5></li>
-                        <li><h5>LinkedIn: <a href='https://www.linkedin.com/in/sali-m-aa7a95b4/' >Sali Mohamed</a></h5></li>
-                        <li><h5>Github: <a href='https://github.com/sali73'>sali73</a></h5></li>
-                        <li><h5>Facebook: <a href='https://www.facebook.com/'>elgendy sally</a></h5></li>
-                    </ul>
-                    </div>
-                </div>
-            </Layout>
-        </>
-    )
-
+  submitForm(ev) {
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        form.reset();
+        this.setState({ status: "SUCCESS" });
+      } else {
+        this.setState({ status: "ERROR" });
+      }
+    };
+    xhr.send(data);
+  }
 }
-export default Contact;
