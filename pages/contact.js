@@ -49,8 +49,8 @@ const Contact = () => {
                             <textarea name="comment" placeholder="Comment....." className="form-control" rows='3' ></textarea><br/>
                         </div>
                          
-                        <button type="submit" className="btn btn-danger btn-block" style={{color:'white'}}> Submit</button>
-                        <button type="reset" className="btn btn-danger btn-block" style={{color:'white'}}> Reset</button>
+                        <button type="submit" className="btn btn-danger btn-md btn-block" style={{color:'white'}}> Submit</button>
+                        <button type="reset" className="btn btn-danger btn-md btn-block" style={{color:'white'}}> Reset</button>
                     </form>
                     </div>
 
