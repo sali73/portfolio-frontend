@@ -196,7 +196,8 @@ h6 , h5{
 }
 .social-media ul{
     display: flex;
-    margin: 0 auto;
+    margin-left: 30%;
+    
     
 }
 .social-media{
