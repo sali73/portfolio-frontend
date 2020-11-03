@@ -174,12 +174,12 @@ h6 , h5{
     height: auto;
 }
 .my-offer p{
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     margin-top: 50px;
     width: 900px;
     font-size: large;
     font-family: 'Viga', sans-serif;
-    padding: 25px;
+    padding: 15px;
     line-height: 2;
     color: #B31D72
 }
