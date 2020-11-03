@@ -181,7 +181,9 @@ h6 , h5{
     font-family: 'Viga', sans-serif;
     padding: 15px;
     line-height: 2;
-    color: #B31D72
+    color: #B31D72;
+    background-color: rgba(250, 250, 250, .8);
+
 }
 .connect-form{
     background-color: rgba(250, 250, 250, .8);
