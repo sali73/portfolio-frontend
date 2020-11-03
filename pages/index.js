@@ -55,7 +55,7 @@ render(){
                             <div className='line'> </div>
                             <h6>I had 12 Weeks Of Software Engineering Impressive Training
                                 Create Apps Using Front-end and Back-end Tools.This gave me a lot of experience and hindsight on how a proper team collaboration,
-                                recruitment, and project management process should look like.Also i graduated of <big>Computer Science Bachelor degree</big> ==> See <Link href={'/resume'}> my CV </Link> for more details.</h6>
+                                recruitment, and project management process should look like.Also i graduated of <big>Computer Science Bachelor degree</big> ==> See <Link href={'https://docs.google.com/document/d/e/2PACX-1vQn7QWbTkiiFuM5f3oYoWdod-uufQcF-dDOT_-LDZE7w5wOwKh1iF4q5JOq3d0mHaRtpLvW3pIaJUJ6/pub'}> my CV </Link> for more details.</h6>
                         <div className='line'> </div>
                                      <ul >
                                         {this.props.projects
