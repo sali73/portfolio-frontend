@@ -11,7 +11,7 @@ const Offer = () => {
                 <div className='my-offer'>
                         <p>I have maintained, developed and launched multiple projects from scratch, carrying the development of its' back-end and front-end code bases.
                         My current toolset includes Elixir Language Ruby, React,Redux and all the other various frameworks, libraries and technologies related to them.</p>
-                        <h5>I can help you with all the sides of your project :</h5>
+                        <h5><i class="em em-first_place_medal" aria-role="presentation" aria-label="FIRST PLACE MEDAL"></i>I can help you with all the sides of your project :</h5>
                         <ul >
                             <li><h6>leading/co-developing the back-end and front-end.</h6></li>
                             <li><h6>mentoring the team.</h6></li>
