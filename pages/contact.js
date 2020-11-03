@@ -24,7 +24,7 @@ const Contact = () => {
                         </div>
                         <fieldset class="form-group">
                             <div class="row">
-                                <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                                <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
                                 <div class="col-sm-10">
                                     <div class="form-check">
                                         <input class="form-check-input" type='radio' name="gender" value="female" id="gridRadios1"  checked />
@@ -58,9 +58,9 @@ const Contact = () => {
                         <ul>
                             <li> <a className='' href='https://www.instagram.com/elgendy.sally/'><img src= 'https://ga-instruction.s3.amazonaws.com/assets/myga-html-css/instagram.png' alt = ''/></a></li>
 
-                            <li> <a className='' href='https://www.facebook.com/selgendy'><img src= 'https://iconarchive.com/icons/designbolts/pink-girly-social/24/Active-Facebook-icon.png' alt = ''/></a></li>
+                            <li> <a className='' href='https://www.facebook.com/selgendy'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/64/Active-Facebook-icon.png' alt = ''/></a></li>
                         
-                            <li> <a className='' href='https://twitter.com/salimoh25979'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/72/Active-Twitter-icon.png' alt = ''/></a></li>
+                            <li> <a className='' href='https://twitter.com/salimoh25979'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/64/Active-Twitter-icon.png' alt = ''/></a></li>
                         </ul>
                     </div>
 
