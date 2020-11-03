@@ -47,19 +47,20 @@ const Contact = () => {
                             <textarea name="comment" className="form-control" rows='3' ></textarea><br/>
                         </div>
                          
-                        <button type="submit" className="btn btn-primary"> Submit</button>
-                        <button type="reset" className="btn btn-primary"> Reset </button>
+                        <button type="submit" className="btn btn-danger"> Submit</button>
+                        <button type="reset" className="btn btn-danger"> Reset </button>
                     </form>
 
                     </div>
 
                     <div>
-                        <h3>Find me on social media by clicking on our Instagram, Facebook, or Twitter.</h3>
+                        <h5>Find me on social media by clicking on our Instagram, Facebook, or Twitter.</h5>
                         <ul>
-                            <li> <a className='touch' href='https://www.hotmail.com'><img src= 'https://iconarchive.com/icons/custom-icon-design/mono-general-2/24/mail-icon.png' alt = ''/></a></li>
-                            <li> <a className='touch' href='https://www.linkedin.com/in/sali-m-aa7a95b4/' ><img src= 'https://iconarchive.com/icons/graphics-vibe/purple-glossy-social/24/linkedin-icon.png' alt = ''/></a> </li>
-                            <li> <a className='touch' href='https://github.com/sali73'><img src= 'https://iconarchive.com/icons/limav/flat-gradient-social/24/Github-icon.png' alt = ''/></a></li>
-                            <li> <a className='touch' href='https://www.facebook.com/'><img src= 'https://iconarchive.com/icons/designbolts/pink-girly-social/24/Active-Facebook-icon.png' alt = ''/></a></li>
+                            <li> <a className='' href='https://www.instagram.com/elgendy.sally/'><img src= 'https://ga-instruction.s3.amazonaws.com/assets/myga-html-css/instagram.png' alt = ''/></a></li>
+
+                            <li> <a className='' href='https://www.facebook.com/selgendy'><img src= 'https://iconarchive.com/icons/designbolts/pink-girly-social/24/Active-Facebook-icon.png' alt = ''/></a></li>
+                        
+                            <li> <a className='' href='https://twitter.com/salimoh25979'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/72/Active-Twitter-icon.png' alt = ''/></a></li>
                         </ul>
                     </div>
 
