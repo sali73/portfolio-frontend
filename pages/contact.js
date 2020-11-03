@@ -10,7 +10,7 @@ const Contact = () => {
                     </div>   
 
                     <div className='my-offer'>
-                        <p><i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i><i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i><i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> I am available for hire and open to any ideas of cooperation <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i></p>
+                        <p><i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> I am available for hire and open to any ideas of cooperation <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> </p>
                     <div>
 
                     <form action="https://formspree.io/f/mknpbvdj" method="POST" className='connect-form'>
@@ -55,7 +55,7 @@ const Contact = () => {
                     </div>
 
                     <div className='social-media'>
-                        <p>Find me on social media by clicking on our Instagram, Facebook, or Twitter.</p>
+                        <p><i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> Find me on social media by clicking on our Instagram, Facebook, or Twitter <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> </p>
                         <ul>
                             <li> <a className='' href='https://www.instagram.com/elgendy.sally/'><img src= 'https://icons.iconarchive.com/icons/uiconstock/socialmedia/48/Instagram-icon.png' alt = ''/></a></li>
 
