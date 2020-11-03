@@ -46,7 +46,7 @@ const Contact = () => {
                      
                         <div class="form-group">
                             <label for="comment">Comment: </label>
-                            <textarea name="comment" className="form-control" rows='3' ></textarea><br/>
+                            <textarea name="comment" placeholder="Comment....." className="form-control" rows='3' ></textarea><br/>
                         </div>
                          
                         <button type="submit" className="btn btn-danger btn-block" style={{color:'white'}}> Submit</button>
