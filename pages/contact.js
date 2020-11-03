@@ -14,11 +14,11 @@ const Contact = () => {
                     <div>
 
                     <form action="https://formspree.io/f/mknpbvdj" method="POST" >
-                        <div class="form-group">
+                        <div class="form-group col-md-6">
                             <label for="name"><h5>Name:</h5></label>
                             <input type="text" name="name" class="form-control" /><br/>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group col-md-6">
                             <label for="mail"><h5>E-mail:</h5></label>
                             <input type="text" name="mail"  class="form-control"/><br/>
                         </div>
