@@ -15,16 +15,16 @@ const Contact = () => {
 
                     <form action="https://formspree.io/f/mknpbvdj" method="POST" className='connect-form'>
                         <div class="form-group col-md-6">
-                            <label for="name"> <h5>Name:</h5></label>
+                            <label for="name"> <h6>Name:</h6></label>
                             <input type="text" name="name" /><br/>
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="mail">E-mail:</label>
+                            <label for="mail"><h6>E-mail:</h6></label>
                             <input type="text" name="mail"  /><br/>
                         </div>
                         <fieldset class="form-group">
                             <div class="row">
-                                <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                                <legend class="col-form-label col-sm-2 pt-0"><h6>Gender</h6></legend>
                                 <div class="col-sm-10">
                                     <div class="form-check">
                                         <input class="form-check-input" type='radio' name="gender" value="female" id="gridRadios1"  checked />
@@ -43,7 +43,7 @@ const Contact = () => {
                         </fieldset>
                      
                         <div class="form-group">
-                            <label for="comment">Comment: </label>
+                            <label for="comment"><h6>Comment: </h6></label>
                             <textarea name="comment" className="form-control" rows='3' ></textarea><br/>
                         </div>
                          
