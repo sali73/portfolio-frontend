@@ -29,13 +29,13 @@ const Contact = () => {
                                     <div class="form-check">
                                         <input class="form-check-input" type='radio' name="gender" value="female" id="gridRadios1"  checked />
                                         <label class="form-check-label" for="gridRadios1">
-                                        <h6>Female</h6>
+                                        Female
                                         </label>
                                     </div>
                                     <div class="form-check">
                                         <input class="form-check-input" type='radio' name="gender" value="male" id="gridRadios2" />
                                         <label class="form-check-label" for="gridRadios2">
-                                        <h6>Male</h6>
+                                        Male
                                         </label>
                                     </div>
                                 </div>
