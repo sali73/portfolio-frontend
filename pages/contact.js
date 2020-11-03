@@ -53,7 +53,7 @@ const Contact = () => {
                     </div>
 
                     <div className='social-media'>
-                        <h5>Find me on social media by clicking on our Instagram, Facebook, or Twitter.</h5>
+                        <p>Find me on social media by clicking on our Instagram, Facebook, or Twitter.</p>
                         <ul>
                             <li> <a className='' href='https://www.instagram.com/elgendy.sally/'><img src= 'https://icons.iconarchive.com/icons/uiconstock/socialmedia/48/Instagram-icon.png' alt = ''/></a></li>
 
