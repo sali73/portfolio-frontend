@@ -15,7 +15,7 @@ const Contact = () => {
 
                     <form action="https://formspree.io/f/mknpbvdj" method="POST" className='connect-form'>
                         <div class="form-group col-md-6">
-                            <label for="name">Name:  </label>
+                            <label for="name"> <h5>Name:</h5></label>
                             <input type="text" name="name" /><br/>
                         </div>
                         <div class="form-group col-md-6">
@@ -47,8 +47,8 @@ const Contact = () => {
                             <textarea name="comment" className="form-control" rows='3' ></textarea><br/>
                         </div>
                          
-                        <button type="submit" className="btn btn-secondary btn-lg"> Submit</button>
-                        <button type="reset" className="btn btn-secondary btn-lg"> Reset</button>
+                        <button type="submit" className="btn btn-outline-danger"> Submit</button>
+                        <button type="reset" className="btn btn-outline-danger"> Reset</button>
                     </form>
                     </div>
 
