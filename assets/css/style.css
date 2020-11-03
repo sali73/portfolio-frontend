@@ -192,6 +192,12 @@ h6 , h5{
     font-size: .3em;
 
 }
+.social-media ul li{
+    list-style: none;
+}
+.social-media{
+    margin-top: 30px;
+}
 
 /*---------------------*/
 /*contact Component*/
