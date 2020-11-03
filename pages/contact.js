@@ -15,27 +15,27 @@ const Contact = () => {
 
                     <form action="https://formspree.io/f/mknpbvdj" method="POST" >
                         <div class="form-group">
-                            <label for="name">Name:</label>
+                            <label for="name"><h5>Name:</h5></label>
                             <input type="text" name="name" /><br/>
                         </div>
                         <div class="form-group">
-                            <label for="mail">E-mail:</label>
+                            <label for="mail"><h5>E-mail:</h5></label>
                             <input type="text" name="mail" /><br/>
                         </div>
                         <fieldset class="form-group">
                             <div class="row">
-                                <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                                <legend class="col-form-label col-sm-2 pt-0"><h5>Gender</h5></legend>
                                 <div class="col-sm-10">
                                     <div class="form-check">
                                         <input class="form-check-input" type='radio' name="gender" value="female" id="gridRadios1"  checked />
                                         <label class="form-check-label" for="gridRadios1">
-                                        Female
+                                        <h6>Female</h6>
                                         </label>
                                     </div>
                                     <div class="form-check">
                                         <input class="form-check-input" type='radio' name="gender" value="male" id="gridRadios2" />
                                         <label class="form-check-label" for="gridRadios2">
-                                        Male
+                                        <h6>Male</h6>
                                         </label>
                                     </div>
                                 </div>
@@ -43,12 +43,12 @@ const Contact = () => {
                         </fieldset>
                      
                         <div class="form-group">
-                            <label for="comment">Comment:</label>
+                            <label for="comment"><h5>Comment:</h5></label>
                             <textarea name="comment" className="form-control" rows='3' ></textarea><br/>
                         </div>
                          
-                        <button type="submit" className="btn btn-danger"> Submit</button>
-                        <button type="reset" className="btn btn-danger"> Reset </button>
+                        <button type="submit" className="btn btn-danger"> <h5 style={{color:'white'}}>Submit</h5></button>
+                        <button type="reset" className="btn btn-danger"> <h5 style={{color:'white'}}>Reset </h5></button>
                     </form>
 
                     </div>
