@@ -184,6 +184,9 @@ h6 , h5{
     color: #B31D72;
     background-color: rgba(250, 250, 250, .8);
 }
+.my-offer  h5{
+    color: #B31D72;
+}
 .connect-form{
     background-color: rgba(250, 250, 250, .8);
     margin-bottom: 30px;
