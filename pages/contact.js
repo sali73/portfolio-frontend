@@ -10,7 +10,7 @@ const Contact = () => {
                     </div>   
 
                     <div className='my-offer'>
-                        <p>I am available for hire and open to any ideas of cooperation.</p>
+                        <p><i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> I am available for hire and open to any ideas of cooperation <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> </p>
                     <div>
 
                     <form action="https://formspree.io/f/mknpbvdj" method="POST" className='connect-form'>
