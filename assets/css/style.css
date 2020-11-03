@@ -168,33 +168,31 @@ h6 , h5{
 /*my-offer Component*/
 /*--------------------*/
 
-.my-offer-header{
-    color: #B31D72
-}
 .my-offer{
     margin-left: 30px;
     font-size: .5em;
     height: auto;
 }
 .my-offer p{
-    margin-bottom: 20px;
-    margin-top: 45px;
-    /* background-color: rgba(250, 250, 250, .8); */
+    margin-bottom: 15px;
+    margin-top: 50px;
     width: 900px;
     font-size: large;
     font-family: 'Viga', sans-serif;
     padding: 25px;
     line-height: 2;
+    color: #B31D72
 }
 .connect-form{
     background-color: rgba(250, 250, 250, .8);
     margin:30px 0px ;
-    font-size: .6em;
+    font-size: .9em;
     padding: 30px;
 
 }
 .social-media ul li{
     list-style: none;
+    display: flex;
 }
 .social-media{
     margin-top: 30px;
