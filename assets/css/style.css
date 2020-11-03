@@ -163,21 +163,21 @@ h6 , h5{
     background-color: rgba(113, 18, 72, .6) ;
     color: white;
 }
-.my-offer-header h6{
-    font-weight: bold;
-}
+
 
 /*---------------------*/
 /*my-offer Component*/
 /*--------------------*/
-
+.my-offer-header h6{
+    font-weight: bold;
+}
 .my-offer{
     margin-left: 30px;
     font-size: .5em;
     height: auto;
 }
 .my-offer p{
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     margin-top: 60px;
     width: 900px;
     font-size: large;
@@ -209,6 +209,9 @@ h6 , h5{
 }
 .social-media{
     margin-top: 30px;
+}
+h5 img {
+    width: 150%;
 }
 
 /*---------------------*/
