@@ -15,12 +15,12 @@ const Contact = () => {
 
                     <form action="https://formspree.io/f/mknpbvdj" method="POST" className='connect-form'>
                         <div class="form-group col-md-6">
-                            <label for="name">Name:</label>
+                            <label for="name">Name:  </label>
                             <input type="text" name="name" /><br/>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="mail">E-mail:</label>
-                            <input type="text" name="mail"  class="form-control"/><br/>
+                            <input type="text" name="mail"  /><br/>
                         </div>
                         <fieldset class="form-group">
                             <div class="row">
@@ -43,12 +43,12 @@ const Contact = () => {
                         </fieldset>
                      
                         <div class="form-group">
-                            <label for="comment"><h5>Comment:</h5></label>
+                            <label for="comment">Comment: </label>
                             <textarea name="comment" className="form-control" rows='3' ></textarea><br/>
                         </div>
                          
-                        <button type="submit" className="btn btn-outline-danger"> Submit</button>
-                        <button type="reset" className="btn btn-outline-danger"> Reset</button>
+                        <button type="submit" className="btn btn-secondary btn-lg"> Submit</button>
+                        <button type="reset" className="btn btn-secondary btn-lg"> Reset</button>
                     </form>
                     </div>
 
