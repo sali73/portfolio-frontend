@@ -16,11 +16,11 @@ const Contact = () => {
                     <form action="https://formspree.io/f/mknpbvdj" method="POST" >
                         <div class="form-group">
                             <label for="name"><h5>Name:</h5></label>
-                            <input type="text" name="name" /><br/>
+                            <input type="text" name="name" class="form-control" /><br/>
                         </div>
                         <div class="form-group">
                             <label for="mail"><h5>E-mail:</h5></label>
-                            <input type="text" name="mail" /><br/>
+                            <input type="text" name="mail"  class="form-control"/><br/>
                         </div>
                         <fieldset class="form-group">
                             <div class="row">
