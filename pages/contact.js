@@ -13,14 +13,16 @@ const Contact = () => {
                         <p>I am available for hire and open to any ideas of cooperation.</p>
                     <div>
 
-                    <form action="https://formspree.io/f/mknpbvdj" method="POST" className='form-row connect-form'>
-                        <div class="form-group col-md-6">
-                            <label for="name"> <h6 style={{paddingRight:'10px'}}>Name: </h6></label>
-                            <input type="text" name="name" className="form-control" placeholder="Name"/><br/>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="mail"><h6 style={{paddingRight:'10px'}}>E-mail: </h6></label>
-                            <input type="text" name="mail" className="form-control" placeholder='E-mail'/><br/>
+                    <form action="https://formspree.io/f/mknpbvdj" method="POST" className=' connect-form'>
+                        <div className='form-row'>
+                            <div class="form-group col-md-6">
+                                <label for="name"> <h6 style={{paddingRight:'10px'}}>Name: </h6></label>
+                                <input type="text" name="name" className="form-control" placeholder="Name"/><br/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="mail"><h6 style={{paddingRight:'10px'}}>E-mail: </h6></label>
+                                <input type="text" name="mail" className="form-control" placeholder='E-mail'/><br/>
+                            </div>
                         </div>
                         <fieldset class="form-group">
                             <div class="row">
