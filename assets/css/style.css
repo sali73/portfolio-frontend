@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
 .grid{
     display: grid;
     grid-template-areas:
@@ -147,6 +152,7 @@ h6 , h5{
     box-shadow: 5px 10px 20px rgba(113, 18, 72, .6) ;
     max-width: 850px;
     height: 260px;
+    transition: transform 0.2s ease-out;
 }
 .card-title{
     text-align: center;
