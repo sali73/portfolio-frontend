@@ -56,21 +56,14 @@ const Contact = () => {
                     <div>
                         <h5>Find me on social media by clicking on our Instagram, Facebook, or Twitter.</h5>
                         <ul>
-                            <li> <a className='' href='https://www.instagram.com/elgendy.sally/'><img src= 'https://ga-instruction.s3.amazonaws.com/assets/myga-html-css/instagram.png' alt = ''/></a></li>
+                            <li> <a className='' href='https://www.instagram.com/elgendy.sally/'><img src= 'https://icons.iconarchive.com/icons/uiconstock/socialmedia/48/Instagram-icon.png' alt = ''/></a></li>
 
-                            <li> <a className='' href='https://www.facebook.com/selgendy'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/32/Active-Facebook-icon.png' alt = ''/></a></li>
+                            <li> <a className='' href='https://www.facebook.com/selgendy'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/48/Active-Facebook-icon.png' alt = ''/></a></li>
                         
-                            <li> <a className='' href='https://twitter.com/salimoh25979'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/32/Active-Twitter-icon.png' alt = ''/></a></li>
+                            <li> <a className='' href='https://twitter.com/salimoh25979'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/48/Active-Twitter-icon.png' alt = ''/></a></li>
                         </ul>
                     </div>
 
-
-                    {/* <ul className='contact-h5'>
-                        <li><h5>E-mail: <a href='https://www.hotmail.com'> sally.elgendy@hotmail.com</a></h5></li>
-                        <li><h5>LinkedIn: <a href='https://www.linkedin.com/in/sali-m-aa7a95b4/' >Sali Mohamed</a></h5></li>
-                        <li><h5>Github: <a href='https://github.com/sali73'>sali73</a></h5></li>
-                        <li><h5>Facebook: <a href='https://www.facebook.com/'>elgendy sally</a></h5></li>
-                    </ul> */}
                     </div>
                 </div>
             </Layout>
