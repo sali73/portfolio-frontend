@@ -22,13 +22,29 @@ const Contact = () => {
                             <label for="mail">E-mail:</label>
                             <input type="text" name="mail" /><br/>
                         </div>
-                    
-                        <input type='radio' name="gender" value="male" /> Male <br/>
-                        <input type='radio' name="gender" value="female" /> Female <br/>
-
+                        <fieldset class="form-group">
+                            <div class="row">
+                                <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type='radio' name="gender" value="female" id="gridRadios1"  checked />
+                                        <label class="form-check-label" for="gridRadios1">
+                                        Female
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type='radio' name="gender" value="male" id="gridRadios2" />
+                                        <label class="form-check-label" for="gridRadios2">
+                                        Male
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                     
                         <div class="form-group">
                             <label for="comment">Comment:</label>
-                            <textarea name="comment" cols='30' rows='10' ></textarea><br/>
+                            <textarea name="comment" className="form-control" rows='3' ></textarea><br/>
                         </div>
                          
                         <button type="submit" className="btn btn-primary"> Submit</button>
