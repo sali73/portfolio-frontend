@@ -13,7 +13,7 @@ const Contact = () => {
                         <p>I am available for hire and open to any ideas of cooperation.</p>
                     <div>
 
-                    <form action="https://formspree.io/f/mknpbvdj" method="POST" className=' connect-form'>
+                    <form action="https://formspree.io/f/mknpbvdj" method="POST" className='connect-form'>
                         <div className='form-row'>
                             <div class="form-group col-md-6">
                                 <label for="name"> <h6 style={{paddingRight:'10px'}}>Name: </h6></label>
@@ -26,7 +26,7 @@ const Contact = () => {
                         </div>
                         <fieldset class="form-group">
                             <div class="row">
-                                <legend class="col-form-label col-sm-2 pt-0"><h6 style={{paddingLeft:'15px', paddingBottom:'20px'}}>Gender: </h6></legend>
+                                <legend class="col-form-label col-sm-2 pt-0"><h6 style={{ paddingBottom:'20px'}}>Gender: </h6></legend>
                                 <div class="col-sm-10">
                                     <div class="form-check">
                                         <input class="form-check-input" type='radio' name="gender" value="female" id="gridRadios1"  checked />
