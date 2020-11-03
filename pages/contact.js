@@ -58,9 +58,9 @@ const Contact = () => {
                         <ul>
                             <li> <a className='' href='https://www.instagram.com/elgendy.sally/'><img src= 'https://ga-instruction.s3.amazonaws.com/assets/myga-html-css/instagram.png' alt = ''/></a></li>
 
-                            <li> <a className='' href='https://www.facebook.com/selgendy'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/64/Active-Facebook-icon.png' alt = ''/></a></li>
+                            <li> <a className='' href='https://www.facebook.com/selgendy'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/32/Active-Facebook-icon.png' alt = ''/></a></li>
                         
-                            <li> <a className='' href='https://twitter.com/salimoh25979'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/64/Active-Twitter-icon.png' alt = ''/></a></li>
+                            <li> <a className='' href='https://twitter.com/salimoh25979'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/32/Active-Twitter-icon.png' alt = ''/></a></li>
                         </ul>
                     </div>
 
