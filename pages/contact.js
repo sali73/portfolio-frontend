@@ -24,7 +24,7 @@ const Contact = () => {
                         </div>
                         <fieldset class="form-group">
                             <div class="row">
-                                <legend class="col-form-label col-sm-2 pt-0"><h6>Gender: </h6></legend>
+                                <legend class="col-form-label col-sm-2 pt-0"><h6 style={{paddingLeft:'10px'}}>Gender: </h6></legend>
                                 <div class="col-sm-10">
                                     <div class="form-check">
                                         <input class="form-check-input" type='radio' name="gender" value="female" id="gridRadios1"  checked />
