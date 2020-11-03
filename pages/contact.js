@@ -13,7 +13,7 @@ const Contact = () => {
                         <p>I am available for hire and open to any ideas of cooperation.</p>
                     <div>
 
-                    <form action="https://formspree.io/f/mknpbvdj" method="POST" >
+                    <form action="https://formspree.io/f/mknpbvdj" method="POST" className='connect-form'>
                         <div class="form-group col-md-6">
                             <label for="name">Name:</label>
                             <input type="text" name="name" class="form-control" /><br/>
