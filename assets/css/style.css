@@ -169,6 +169,11 @@ h6 , h5{
     background-color: rgba(113, 18, 72, .6) ;
     color: white;
 }
+.card-body:before{
+    transform: translate(-50%, -50%);
+    z-index: -5;
+
+}
 
 
 /*---------------------*/
