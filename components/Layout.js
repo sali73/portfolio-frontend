@@ -41,6 +41,7 @@ const Layout = (props) => {
                     {props.children}
                 </main>
             </div>
+            <div class="glass"></div>
         </div>
     )
 }
