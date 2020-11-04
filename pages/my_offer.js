@@ -41,7 +41,7 @@ const Offer = () => {
                     <div>
                         <h5><img src='https://icons.iconarchive.com/icons/thehoth/seo/24/seo-web-code-icon.png'/> BACK-END ENGINEERING</h5>
                         <div className="my-offer-header">
-                            <h6>What I can do for you at that side is :</h6>
+                            <h6><i class="em em-first_place_medal" aria-role="presentation" aria-label="FIRST PLACE MEDAL"></i> What I can do for you at that side is :</h6>
                         </div>
                         <ul>
                             <li><h6> lead development of backends in Elixir/Ruby.</h6></li>
