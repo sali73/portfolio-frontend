@@ -28,18 +28,33 @@ const Contact = () => {
                             <div class="row">
                                 <legend class="col-form-label col-sm-2 pt-0"><h6 style={{ paddingBottom:'20px'}}>Gender: </h6></legend>
                                 <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type='radio' name="gender" value="female" id="gridRadios1"  checked />
-                                        <label class="form-check-label" for="gridRadios1">
-                                        Female
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type='radio' name="gender" value="male" id="gridRadios2" />
-                                        <label class="form-check-label" for="gridRadios2">
-                                        Male
-                                        </label>
-                                    </div>
+                                <label class="showOverlay" for="check">Show mask </label>
+<input id="check" class="check" type="checkbox" />
+<div class="containerOuter">
+  <div class="container">
+    <input type="radio" class="hidden" id="input1" name="inputs" />
+    <label class="entry" for="input1"><div class="circle" >
+ </div>
+    <div class="entry-label">Mele</div></label>
+    <input type="radio" class="hidden" id="input2" name="inputs" />
+    <label class="entry" for="input2"><div class="circle"></div><div class="entry-label">Famle</div></label>
+    <input type="radio" class="hidden" id="input3" name="inputs" />
+    <label class="entry" for="input3"><div class="circle"></div><div class="entry-label">Computer</div></label>
+    <div class="highlight"></div>
+    <div class="overlay"></div>
+  </div>
+</div>
+<svg width="0" height="0" viewBox="0 0 40 140">
+  <defs>
+    <mask id="holes">
+      <rect x="0" y="0" width="100" height="140" fill="white" />
+      <circle r="12" cx="20" cy="20" fill="black"/>
+      <circle r="12" cx="20" cy="70" fill="black"/>
+      <circle r="12" cx="20" cy="120" fill="black"/>
+    </mask>
+  </defs>
+</svg>
+
                                 </div>
                             </div>
                         </fieldset>
