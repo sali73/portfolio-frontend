@@ -137,10 +137,36 @@ h6 , h5{
     font-size: 16px
 }
 .bottoms .btn {
-    margin-left: 20px;
-    margin-bottom: 10px;
-    color: #7f797c;
+    border: none;
+    color: #000;
 }
+.bottoms .btn:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+  }
+  .bottoms .btn:hover {
+    color: #000;
+  }
+  .bottoms .btn:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  .bottoms .btn:active {
+    top: 2px;
+  }
 .project_cards{
     display: flex;
     flex-wrap:wrap;
@@ -152,7 +178,6 @@ h6 , h5{
     box-shadow: 5px 10px 20px rgba(113, 18, 72, .6) ;
     max-width: 850px;
     height: 260px;
-    transition: transform 0.2s ease-out;
 }
 .card-title{
     text-align: center;
@@ -169,11 +194,7 @@ h6 , h5{
     background-color: rgba(113, 18, 72, .6) ;
     color: white;
 }
-.card-body:before{
-    transform: translate(-50%, -50%);
-    z-index: -5;
 
-}
 
 
 /*---------------------*/
