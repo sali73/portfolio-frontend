@@ -28,12 +28,13 @@ const Offer = () => {
                         <ul>
                             <li><h6> HTML, CSS, SASS</h6></li>
                             <li><h6> javascript</h6></li>
+                            <li><h6> ES6 </h6></li>
                             <li><h6> jQuery</h6></li>
                             <li><h6> React.JS</h6></li>
                             <li><h6> Next.js</h6></li>
+                            <li><h6> Express/Node</h6></li>
                             <li><h6> Angular</h6></li>
-                            <li><h6> Node.js </h6></li>
-                            <li><h6> Express</h6></li>
+                            <li><h6> TypeScript</h6></li>
                             <li><h6>Ruby on Rails</h6></li>
                         </ul>
                     </div>
@@ -49,7 +50,7 @@ const Offer = () => {
                             <li><h6> using different types of databases (like PostgreSQL, MySQL, MongoDB).</h6></li>
                             <li><h6> python.</h6></li>
                             <li><h6>Django.</h6></li>
-                            <li><h6>Java.</h6></li>
+                            
                         </ul>
                     </div>
                     <div className='line'></div>
