@@ -6,7 +6,7 @@ const Nav = () => {
             <div className='navTop'>
                 <img style={{width:"140px"}} src= 'https://imgur.com/m5KWye4.jpg' alt = ''/>
                 <h4>SALI SAMIR MOHAMED</h4>
-                <h6> SOFTWEAR ENGINEERING (Front-end/Full-stack)</h6>
+                <h6> Software Engineer</h6>
             </div>
             <div className='navMid'>
                 <Link href={'/'}><a>PORTFOLIO ></a></Link>
