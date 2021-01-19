@@ -27,14 +27,12 @@ const Offer = () => {
                         </div>
                         <ul>
                             <li><h6> HTML, CSS, SASS</h6></li>
-                            <li><h6> javascript</h6></li>
-                            <li><h6> ES6 </h6></li>
+                            <li><h6> javascript, ES6 </h6></li>
                             <li><h6> jQuery</h6></li>
                             <li><h6> React.JS</h6></li>
                             <li><h6> Next.js</h6></li>
                             <li><h6> Express/Node</h6></li>
-                            <li><h6> Angular</h6></li>
-                            <li><h6> TypeScript</h6></li>
+                            <li><h6> Angular, TypeScript</h6></li>
                             <li><h6>Ruby on Rails</h6></li>
                         </ul>
                     </div>
