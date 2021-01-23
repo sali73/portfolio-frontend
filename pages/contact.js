@@ -15,7 +15,7 @@ const Contact = () => {
                                 <input type="text" name="name"  placeholder="Enter Your Name"/><br/>
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="text" name="mail" placeholder='Enter Your Email'/>
+                                <input type="text" name="mail" placeholder='What is your email?'/>
                                 <br/>
                             </div>
                         </div>
@@ -45,19 +45,13 @@ const Contact = () => {
                         </fieldset>
                      
                         <div class="form-group">
-                            <textarea style={{ width:'650px', padding:'20px' , margin:'50px 20px 0px'}} name="comment" placeholder="Comment....." className="form-control" rows='5' ></textarea><br/>
+                            <textarea style={{ width:'550px', padding:'20px' , margin:'50px 20px 0px'}} name="comment" placeholder="Comment....." className="form-control" rows='5' ></textarea><br/>
                         </div>
                         <hr/>
                          <div style={{ textAlign:'center'}}>   
                             <button type="submit" > Submit</button>
                             <button type="reset"> Reset</button>
-                        </div>  
-
-
-
-
-                        
-                                           
+                        </div>                          
                     </form>
                     </div>
                     <div className='social-media'>
@@ -69,6 +63,7 @@ const Contact = () => {
                         
                             <li> <a className='' href='https://twitter.com/salimoh25979'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/48/Active-Twitter-icon.png' alt = ''/></a></li>
                         </ul> 
+                        
                     </div>
             </Layout>
         </>

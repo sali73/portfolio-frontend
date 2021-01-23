@@ -38,9 +38,10 @@ render(){
         <Layout >
             <div className= 'portfolio'>
                 <div className= 'port'>
+                    
                     <h1> PORTFOLIO</h1>
                     <h6> <big>About me </big> I am a strong foundation in software engineering and programming principles across multiple
-                    platforms.  Experienced in object-oriented programming, developing, testing / debugging code, and
+                    platforms.  Experienced in object-oriented programming, developing, testing/debugging code, and
                     designing interfaces. Quick learner and a successful master of new technologies.
                     See my works below 
                         <span className='icon'>
@@ -53,14 +54,14 @@ render(){
                     <div className='part-one'>
                         <small><br/> <br/>Now<br/> <br/><br/><br/><br/><br/><br/>2020<br/><br/><br/><br/><br/><br/><br/>Projects</small>
                     </div>
-                    <div className='part-two'>
-                            <h6><big>Currently open to co-operation on new and existing projects.</big><br/>
+                    <div className='part-two' >
+                            <h6 style={{ marginRight:'50px'}}><big>Currently open to co-operation on new and existing projects.</big><br/>
                                 Looking for a Software Engineer, Frontend or Full-stack willing to join your team?
                                 <Link href={'/contact'}>
                                      <b> Contact me.</b>
                                 </Link> I will answer you in ~24 hours.</h6>
                             <div className='line'> </div>
-                            <h6>I had 12 Weeks Of Software Engineering Impressive Training
+                            <h6 style={{ marginRight:'55px'}}>I had 12 Weeks Of Software Engineering Impressive Training
                                 Create Apps Using Front-end and Back-end Tools.This gave me a lot of experience and hindsight on how a proper team collaboration,
                                 recruitment, and project management process should look like. Also I graduated of <big>Computer Science Bachelor degree</big> 
                                 <Link className='clicklinks' 
@@ -91,7 +92,7 @@ render(){
                                                                     </div>
                                                                 </div>
                                                                 <div className='card-footer' >
-                                                                     <h6> Technologies: {index.details}</h6>
+                                                                     <h6> Technologies :   {index.details}</h6>
                                                                  </div>
                                                             </div>
                                                         </div>
