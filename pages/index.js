@@ -23,7 +23,7 @@ static async getInitialProps (){
     }
 }
 async componentDidMount(){
-        let res , data , projects ;
+    let res , data , projects ;
      try{
         res = await fetch('https://new-portfolio-django-backend.herokuapp.com/api/v1/project/');
         data = await res.json();
@@ -42,7 +42,12 @@ render(){
                     <h6> <big>About me </big> I am a strong foundation in software engineering and programming principles across multiple
                     platforms.  Experienced in object-oriented programming, developing, testing / debugging code, and
                     designing interfaces. Quick learner and a successful master of new technologies.
-                    See my works below <i class="em em-point_down" aria-role="presentation" aria-label="WHITE DOWN POINTING BACKHAND INDEX"></i></h6>
+                    See my works below 
+                        <span className='icon'>
+                            <i className="em em-point_down " aria-role="presentation" aria-label="WHITE DOWN POINTING BACKHAND INDEX"></i>
+                        </span>
+                    </h6>
+                    
                 </div>
                 <div className='portfolio2'>
                     <div className='part-one'>
@@ -51,11 +56,24 @@ render(){
                     <div className='part-two'>
                             <h6><big>Currently open to co-operation on new and existing projects.</big><br/>
                                 Looking for a Software Engineer, Frontend or Full-stack willing to join your team?
-                                <Link href={'/contact'}> Contact me. </Link> I will answer you in ~24 hours.</h6>
+                                <Link href={'/contact'}>
+                                     <b> Contact me.</b>
+                                </Link> I will answer you in ~24 hours.</h6>
                             <div className='line'> </div>
                             <h6>I had 12 Weeks Of Software Engineering Impressive Training
                                 Create Apps Using Front-end and Back-end Tools.This gave me a lot of experience and hindsight on how a proper team collaboration,
-                                recruitment, and project management process should look like. Also I graduated of <big>Computer Science Bachelor degree</big> <i class="em em-point_right" aria-role="presentation" aria-label="WHITE RIGHT POINTING BACKHAND INDEX"></i> See <Link href={'https://docs.google.com/document/d/e/2PACX-1vQn7QWbTkiiFuM5f3oYoWdod-uufQcF-dDOT_-LDZE7w5wOwKh1iF4q5JOq3d0mHaRtpLvW3pIaJUJ6/pub'}> my CV </Link> for more details.</h6>
+                                recruitment, and project management process should look like. Also I graduated of <big>Computer Science Bachelor degree</big> 
+
+                                {/* <span className='downicon'>
+                                    <i class="em em-point_right" aria-role="presentation" aria-label="WHITE RIGHT POINTING BACKHAND INDEX">
+                                    </i> 
+                                </span> */}
+                                <Link className='clicklinks' 
+                                href={'https://docs.google.com/document/d/e/2PACX-1vQn7QWbTkiiFuM5f3oYoWdod-uufQcF-dDOT_-LDZE7w5wOwKh1iF4q5JOq3d0mHaRtpLvW3pIaJUJ6/pub'}
+                                >
+                                   <b> My CV  </b> 
+                                </Link>  for more details.
+                            </h6>
                         <div className='line'> </div>
                                      <ul >
                                         {this.props.projects

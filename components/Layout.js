@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from "next/link";
 import '../assets/css/style.css'
 const Layout = (props) => {
     return (
@@ -17,14 +16,16 @@ const Layout = (props) => {
                     <div className="transbox">
                         <div className='navTop'>
                             <img className='myimg' src= 'https://imgur.com/Ghlpeff.jpg' alt = ''/>
-                            <h4>SALI MOHAMED</h4>
+                            <span class="back">
+                                <span><h4>SALI SAMIR</h4></span>
+                            </span>
                             <h6> SOFTWEAR ENGINEERING </h6>
                         </div>
                          <div className='navMid'>
-                            <a href={'/'}>PORTFOLIO ></a>
-                            <a href={'/my_offer'} >What I Offer</a>
-                           <a href={'/contact'} >Contact Me</a>
-                           <a href={'https://docs.google.com/document/d/e/2PACX-1vQn7QWbTkiiFuM5f3oYoWdod-uufQcF-dDOT_-LDZE7w5wOwKh1iF4q5JOq3d0mHaRtpLvW3pIaJUJ6/pub'}>My Resume</a>
+                            <a class="btn btn-2 " href={'/'}>PORTFOLIO ></a>
+                            <a class="btn btn-2 "  href={'/my_offer'} >What I Offer</a>
+                            <a class="btn btn-2 " href={'/contact'} >Contact Me</a>
+                            <a class="btn btn-2 " href={'https://docs.google.com/document/d/e/2PACX-1vQn7QWbTkiiFuM5f3oYoWdod-uufQcF-dDOT_-LDZE7w5wOwKh1iF4q5JOq3d0mHaRtpLvW3pIaJUJ6/pub'}>My Resume</a>
                         </div>
                         <div className='navBottom'>
                              <ul>
