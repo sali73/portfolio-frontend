@@ -7,21 +7,14 @@ const Contact = () => {
                 <div className='contact'>
                     <div className="port">
                         <h1>CONTACT ME</h1>
-                    </div>   
-
-                    {/* <div className='my-offer'>
-                        <p><i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> I am available for hire and open to any ideas of cooperation <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> </p>
-                    <div> */}
-
+                    </div>  
                     <form action="https://formspree.io/f/mknpbvdj" method="POST" >
                         <h1> I am available for hire and open to any ideas of cooperation</h1>
                         <div className='form-row'>
                             <div class="form-group col-md-6">
-                                {/* <label for="name"> <h6 style={{paddingRight:'10px'}}>Name: </h6></label> */}
                                 <input type="text" name="name"  placeholder="Name"/><br/>
                             </div>
                             <div class="form-group col-md-6">
-                                {/* <label for="mail"><h6 style={{paddingRight:'10px'}}>E-mail: </h6></label> */}
                                 <input type="text" name="mail" placeholder='E-mail'/><br/>
                             </div>
                         </div>
@@ -55,9 +48,6 @@ const Contact = () => {
                         </div>                     
                     </form>
                     </div>
-
-
-
                     <div className='social-media'>
                         <h4> Find me on social media!</h4>
                         <ul>
@@ -68,9 +58,6 @@ const Contact = () => {
                             <li> <a className='' href='https://twitter.com/salimoh25979'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/48/Active-Twitter-icon.png' alt = ''/></a></li>
                         </ul> 
                     </div>
-
-                  
-               
             </Layout>
         </>
     )
