@@ -607,7 +607,7 @@ section {
       margin: 50px 0px;
    }
   .navBottom h6{
-    padding-top: 60px;
+    padding-top: 80px;
     font-size: 1.6em;
   }
    .navMid h5{
@@ -644,21 +644,11 @@ section {
       margin-top: 120px;
       margin-right: 30px;
   }
-  /* .portfolio {
-    grid-template-rows: 220px auto;
-      margin-left: 90px;
-  } */
   .portfolio2{
     display: grid;
     grid-template-columns: 50px 400px;
       font-size: x-large;
   }
-  /* .line {
-    width: 340px;
-    height: 30px;
-    border-bottom: 1px solid black;
-    margin-bottom: 30px;
-  } */
   .port h6{
       width: 900px;
       font-size:x-large;
@@ -684,11 +674,6 @@ section {
     width: 600px;
     margin-left: 170px;
 }
-
-
-
-
-
 .projects_img{
     width: 446px;
     height: 226px;
@@ -696,12 +681,12 @@ section {
     border-bottom-right-radius: 3%;
 }
 .bottoms h6{
-
     font-size: 12px;
     font-weight: bold;
 }
 .bottoms {
     margin-bottom: 15px;
+    margin-left: -10px;
 }
 .project_cards{
     display: flex;
