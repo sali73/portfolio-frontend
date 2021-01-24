@@ -644,27 +644,28 @@ section {
       margin-top: 120px;
       margin-right: 30px;
   }
-  .portfolio {
+  /* .portfolio {
     grid-template-rows: 220px auto;
       margin-left: 90px;
-  }
+  } */
   .portfolio2{
     display: grid;
     grid-template-columns: 50px 400px;
       font-size: x-large;
   }
-  .line {
+  /* .line {
     width: 340px;
     height: 30px;
     border-bottom: 1px solid black;
     margin-bottom: 30px;
-  }
+  } */
   .port h6{
       width: 900px;
       font-size:x-large;
   }
    .portfolio {
     grid-template-rows: 390px auto;
+    margin-left: 90px;
   }
   .resumeBottom > h4{
     padding-top: 10px;
@@ -682,8 +683,27 @@ section {
     margin-top: 300px; 
     width: 600px;
     margin-left: 170px;
- }
- .project_cards{
+}
+
+
+
+
+
+.projects_img{
+    width: 446px;
+    height: 226px;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+.bottoms h6{
+
+    font-size: 12px;
+    font-weight: bold;
+}
+.bottoms {
+    margin-bottom: 15px;
+}
+.project_cards{
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
@@ -692,29 +712,29 @@ section {
     margin-top: 70px;
     border: 2px solid rgba(	113, 18, 72 , .3) ;
     box-shadow: 5px 10px 20px rgba(113, 18, 72, .6) ;
-    max-width: 850px;
-    height: 300px;
-}
-.card:hover {
-    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
-    transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease;
+    max-width: 450px;
+    height: 480px;
 }
 .card-title{
     text-align: center;
     padding: 10px;
-    font-size: 25px;
-    font-weight: bolder;
-    color: #7f797c;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: -15px;
 }
 .card-footer{
     padding-top:5px;
     text-align:center;
     width: 800px;
-    height: 50px;
+    height: 80px;
     background-color: rgba(113, 18, 72, .6) ;
     color: white;
 }
+.card-footer h6{
+    font-size: 15px;;
+}
+
 }
 
 
