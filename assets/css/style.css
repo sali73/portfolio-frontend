@@ -14,7 +14,6 @@
     
 }
 nav{
-    border-radius: 0 0 85% 85% / 30%;
     grid-area: nav;
     z-index: 1;
     overflow-x: hidden;
