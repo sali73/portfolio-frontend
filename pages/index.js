@@ -1,9 +1,7 @@
-
 import fetch from 'isomorphic-unfetch';
 import Link from "next/link";
 import Layout from '../components/Layout';
 import {Component} from 'react';
-
 
 export default class Index extends Component {
     state = {
@@ -38,7 +36,6 @@ render(){
         <Layout >
             <div className= 'portfolio'>
                 <div className= 'port'>
-                    
                     <h1> PORTFOLIO</h1>
                     <h6> <big>About me </big> I am a strong foundation in software engineering and programming principles across multiple
                     platforms.  Experienced in object-oriented programming, developing, testing/debugging code, and

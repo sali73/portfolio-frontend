@@ -11,8 +11,10 @@
     "nav  main"
     "nav  main";
     grid-template-columns: 30% auto;
+    
 }
 nav{
+    border-radius: 0 0 85% 85% / 30%;
     grid-area: nav;
     z-index: 1;
     overflow-x: hidden;
@@ -152,7 +154,7 @@ h6 , h5{
     font-size: 14px
 }
 .bottoms .btn {
-    margin-left: 15px;
+    margin-left: 5px;
     margin-bottom: 10px;
     color: #7f797c;
 }
@@ -165,7 +167,7 @@ h6 , h5{
     margin-top: 70px;
     border: 2px solid rgba(	113, 18, 72 , .3) ;
     box-shadow: 5px 10px 20px rgba(113, 18, 72, .6) ;
-    max-width: 800px;
+    max-width: 780px;
     height: 280px;
 }
 .card:hover {
@@ -380,7 +382,7 @@ label {
 form {
     box-sizing: border-box;
     width: 600px;
-    margin: 80px 120px 0px;
+    margin: 65px 120px 0px;
     box-shadow: 3px 0px 3px 8px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
 }

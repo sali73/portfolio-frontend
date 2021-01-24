@@ -20,7 +20,7 @@ const Offer = () => {
                             <li><h6>estimating tasks.</h6></li>   
                         </ul>
                     {/* <div className='line'> </div> */}
-                    <div>
+                    <div> 
                         <h5><img src='https://icons.iconarchive.com/icons/cornmanthe3rd/plex/24/Other-html-5-icon.png'/> FRONT-END ENGINEERING</h5>
                         <div className="my-offer-header">
                             <h6>My current experience and skills in front-end includes:</h6>
