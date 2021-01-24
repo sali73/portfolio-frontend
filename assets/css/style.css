@@ -89,7 +89,6 @@ main{
 }
 .port h6{
     margin-top: 45px;
-    font-size: large;
     background-color: rgba(255, 182, 223, 0.1);
     padding: 25px;
     border-radius: 2%;
@@ -102,7 +101,7 @@ main{
     font-size: 45px;
     margin-top: -20px;
 }
-h6 big{
+h6 big , .my-offer p big{
     font-weight: bolder;
     color: #B31D72;
 }
@@ -733,10 +732,10 @@ section {
   width: 90%;
   text-align: center;
 }
-button {
+.frame button {
   margin: 20px;
 }
-.custom-btn {
+.frame .custom-btn {
   width: 130px;
   height: 40px;
   color: #fff;
@@ -755,18 +754,18 @@ button {
   outline: none;
 }
 /* 11 */
-.btn-11 {
+.frame .btn-11 {
   border: none;
   background: rgba(238, 194, 127);
   background: linear-gradient(0deg, rgba(238, 194, 127,1) 0%,rgba(238, 194, 127,1) 100%);
   color: #fff;
   overflow: hidden;
 }
-.btn-11:hover {
+.frame .btn-11:hover {
     text-decoration: none;
     color: #fff;
 }
-.btn-11:before {
+frame .btn-11:before {
     position: absolute;
     content: '';
     display: inline-block;
@@ -777,10 +776,10 @@ button {
     background-color: #fff;
     animation: shiny-btn1 3s ease-in-out infinite;
 }
-.btn-11:hover{
+.frame .btn-11:hover{
   opacity: .7;
 }
-.btn-11:active{
+.frame .btn-11:active{
   box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
               -4px -4px 6px 0 rgba(116, 125, 136, .2), 
     inset -4px -4px 6px 0 rgba(255,255,255,.2),

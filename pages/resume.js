@@ -1,5 +1,6 @@
 import Layout from  '../components/Layout'
 
+
 const Resume = () => {
     console.log('this is the contact page ')
     return (
@@ -7,19 +8,19 @@ const Resume = () => {
             <Layout>
                 <div className= 'jumbotron'>
                     <div className='resumeTop'>
-                    <a className='frame' href={'https://docs.google.com/document/d/e/2PACX-1vQn7QWbTkiiFuM5f3oYoWdod-uufQcF-dDOT_-LDZE7w5wOwKh1iF4q5JOq3d0mHaRtpLvW3pIaJUJ6/pub'} target="_blank" rel="noopener noreferrer" download>
-                    <button class="custom-btn btn-11">
-                        <i className="fas fa-download"/>
-                         Download 
-                         <div class="dot"></div>
-                    </button>
-                </a><hr/>
+                        <a className='frame' href={'../assets/img/sali_sv.pdf'} target="_blank" rel="noopener noreferrer" download>
+                        <button class="custom-btn btn-11">
+                            <i className="fas fa-download"/>
+                            Download 
+                            <div class="dot"></div>
+                        </button>
+                        </a><hr/>
                         <h3>Sali Samir Mahmoud</h3>
                         <h5>SOFTWARE ENGINEER</h5>
                         <h6>Sally.elgendy@hotmail.com  |  Yonkers, New York |  https://github.com/sali73  |  https://www.linkedin.com/in/salimohamed</h6>
                     </div><hr/>
                     
-                    <div style={{paddingTop:'20px'}} className='resume'>
+                    <div style={{paddingTop:'10px'}} className='resume'>
                         <h5>SUMMARY</h5>
                         <p>I am a strong foundation in software engineering and programming principles across multiple platforms. Experienced in object-oriented programming, developing, testing/debugging code, and designing interfaces.Quick learner and a successful master of new technologies.</p>
                         <h5>SKILLS</h5>

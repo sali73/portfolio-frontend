@@ -37,22 +37,23 @@ render(){
             <div className= 'portfolio'>
                 <div className= 'port'>
                     <h1> PORTFOLIO</h1>
-                    <h6> <big>About me </big> I am a strong foundation in software engineering and programming principles across multiple
-                    platforms.  Experienced in object-oriented programming, developing, testing/debugging code, and
-                    designing interfaces. Quick learner and a successful master of new technologies.
-                    See my works below 
-                        <span className='icon'>
-                            <i className="em em-point_down " aria-role="presentation" aria-label="WHITE DOWN POINTING BACKHAND INDEX"></i>
-                        </span>
-                    </h6>
-                    
+                    <div className='my-offer'>
+                        <p>
+                            <big>About me </big> I am a strong foundation in software engineering and programming principles across multiple platforms.  Experienced i object-oriented programming, developing, testing/debugging code, and
+                            designing interfaces. Quick learner and a successful master of new technologies.
+                            See my works below 
+                            <span className='icon'>
+                                <i className="em em-point_down " aria-role="presentation" aria-label="WHITE DOWN POINTING BACKHAND INDEX"></i>
+                            </span>
+                        </p>
+                    </div>
                 </div>
                 <div className='portfolio2'>
                     <div className='part-one'>
-                        <small><br/> <br/>Now<br/> <br/><br/><br/><br/><br/><br/>2020<br/><br/><br/><br/><br/><br/><br/>Projects</small>
+                        <small><br/><br/><br/>Now<br/> <br/><br/><br/><br/><br/><br/>2020<br/><br/><br/><br/><br/><br/><br/>Projects</small>
                     </div>
                     <div className='part-two' >
-                            <h6 style={{ marginRight:'50px'}}><big>Currently open to co-operation on new and existing projects.</big><br/>
+                            <h6 style={{ marginRight:'50px', marginTop:'20px'}}><big>Currently open to co-operation on new and existing projects.</big><br/>
                                 Looking for a Software Engineer, Frontend or Full-stack willing to join your team?
                                 <Link href={'/contact'}>
                                      <b> Contact me.</b>

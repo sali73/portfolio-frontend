@@ -33,7 +33,7 @@ const Offer = () => {
                             <li><h6> Ruby on Rails</h6></li>
                             <li><h6> Express/Node</h6></li>
                             </div>
-                            <div>
+                            <div >
                             <li><h6> webpack, npm</h6></li>
                             <li><h6> React, Next</h6></li>
                             <li><h6> Django</h6></li>
