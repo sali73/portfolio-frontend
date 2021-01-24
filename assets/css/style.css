@@ -278,11 +278,11 @@ h6 , h5{
     background-color: rgba(255, 182, 223, 0.1);
     border-radius: 2%;
 }
-.my-offer  h5{
+.my-offer  h5 , .resume h5{
     color: #B31D72;
     font-size: large;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 40px;
     background: linear-gradient( 90deg, rgba(179, 29, 114, 0.6) , rgba(255, 255, 255, 0.6));
     border-left:20px rgb(179, 29, 114) solid;
     color: #444;
@@ -511,47 +511,69 @@ section {
 /*---------------------*/
 /* cv Component*/
 /*--------------------*/
-/*.jumbotron{*/
-/*    margin-left:50px;*/
-/*    padding: 50px ;*/
-/*    width: 900px;*/
-/*    background-image: linear-gradient(#fbfafd, white);*/
-/*}*/
-/*.resumeTop{*/
-/*    text-align: center;*/
-/*}*/
-/*.contact-h5 > h5{*/
-/*  color: #000000;*/
-/*  font-family:'Times New Roman'*/
-/*}*/
-/*.lineTwo {*/
-/*    width: 770px;*/
-/*    height: 47px;*/
-/*    border-bottom: 1px solid #7f797c;*/
-/*}*/
-/*.resumeBottom > h4{*/
-/*    text-decoration: underline;*/
-/*    color: #B31D72;*/
-/*    padding-top: 30px;*/
-/*}*/
-/*.resumeBottom > p{*/
-/*   font-size: .6em;*/
-/*}*/
-/*.resumeBottom > ul li{*/
-/*   font-size: .6em;*/
-/*}*/
-/*.resumeBottom  h5{*/
-/*   margin-bottom: -10px;*/
-/*    font-weight: bolder ;*/
-/*}*/
-/*.edu{*/
-/*    padding-top: 20px;*/
-/*    padding-bottom: 40px;*/
-/*}*/
-/*.edu li{*/
-/*    line-height: 200%;*/
-/*}*/
+.jumbotron{
+   margin-left:50px;
+   padding: 50px ;
+   width: 900px;
+   background-color: rgba(255, 182, 223, 0.1);
+   border: 1px solid rgba(255, 182, 223, 0.1);
+} 
+.resumeTop{
+    text-align: center;
+}
+.resumeTop h3{
+    color: #B31D72;
+}
+.resume big{
+    text-decoration: underline;
+}
+.contact-h5 > h5{
+  color: #000000;
+}
+.resume h5{
+    margin-bottom: 20px;
+}
+.lineTwo {
+    width: 770px;
+    height: 47px;
+    border-bottom: 1px solid #7f797c;
+}
+.resumeBottom > h4{
+    text-decoration: underline;
+    color: #B31D72;
+    padding-top: 30px;
+}
+.resumeBottom > p{
+   font-size: .6em;
+}
+.resumeBottom > ul li{
+   font-size: .6em;
+}
+.resumeBottom  h5{
+   margin-bottom: -10px;
+    font-weight: bolder ;
+}
+.edu{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.edu li{
+    line-height: 200%;
+    margin-bottom: 20px;
+}
+.resumeEx ul{
+    margin-top: -10px;
+    margin-bottom: 30px;
 
+}
+.exTaitelInFo{
+    margin-top: -10px;
+    color: gray;
+}
+.resumeEx .exTaitel {
+    text-decoration: underline;
+    margin-bottom: -12px;
+}
 /*---------------------*/
 /*  mobile setup   */
 /*--------------------*/

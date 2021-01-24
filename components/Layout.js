@@ -24,8 +24,9 @@ const Layout = (props) => {
                          <div className='navMid'>
                             <a class="btn btn-2 " href={'/'}>PORTFOLIO ></a>
                             <a class="btn btn-2 "  href={'/my_offer'} >What I Offer</a>
+                            <a class="btn btn-2 " href={'/Resume'}>My Resume</a>
                             <a class="btn btn-2 " href={'/contact'} >Contact Me</a>
-                            <a class="btn btn-2 " href={'https://docs.google.com/document/d/e/2PACX-1vQn7QWbTkiiFuM5f3oYoWdod-uufQcF-dDOT_-LDZE7w5wOwKh1iF4q5JOq3d0mHaRtpLvW3pIaJUJ6/pub'}>My Resume</a>
+                            {/* <a class="btn btn-2 " href={'https://docs.google.com/document/d/e/2PACX-1vQn7QWbTkiiFuM5f3oYoWdod-uufQcF-dDOT_-LDZE7w5wOwKh1iF4q5JOq3d0mHaRtpLvW3pIaJUJ6/pub'}>My Resume</a> */}
                         </div>
                         <div className='navBottom'>
                              <ul>
