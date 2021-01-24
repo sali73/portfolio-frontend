@@ -7,12 +7,19 @@ const Resume = () => {
             <Layout>
                 <div className= 'jumbotron'>
                     <div className='resumeTop'>
+                    <a className='frame' href={'https://docs.google.com/document/d/e/2PACX-1vQn7QWbTkiiFuM5f3oYoWdod-uufQcF-dDOT_-LDZE7w5wOwKh1iF4q5JOq3d0mHaRtpLvW3pIaJUJ6/pub'} target="_blank" rel="noopener noreferrer" download>
+                    <button class="custom-btn btn-11">
+                        <i className="fas fa-download"/>
+                         Download 
+                         <div class="dot"></div>
+                    </button>
+                </a><hr/>
                         <h3>Sali Samir Mahmoud</h3>
                         <h5>SOFTWARE ENGINEER</h5>
                         <h6>Sally.elgendy@hotmail.com  |  Yonkers, New York |  https://github.com/sali73  |  https://www.linkedin.com/in/salimohamed</h6>
                     </div><hr/>
                     
-                    <div className='resume'>
+                    <div style={{paddingTop:'20px'}} className='resume'>
                         <h5>SUMMARY</h5>
                         <p>I am a strong foundation in software engineering and programming principles across multiple platforms. Experienced in object-oriented programming, developing, testing/debugging code, and designing interfaces.Quick learner and a successful master of new technologies.</p>
                         <h5>SKILLS</h5>
@@ -57,17 +64,17 @@ const Resume = () => {
                             <big className='exTaitel'>El Marwa Food Industries :</big>
                             <h6 className='exTaitelInFo'>Junior front end developer - May 2012 to September 2016 - Cairo,Egypt</h6>
                             <ul>
-                                <li>Implemented web designs and outlook through programming languages HTML, CSS , jQuery and JavaScript frameworks to renew and update the industrie website <a href='http://www.elmarwa.com'>elmarwa</a></li>
+                                <li>Implemented web designs and outlook through programming languages HTML, CSS , jQuery and JavaScript frameworks to renew and update the industrie website <a href='http://www.elmarwa.com'><b>LINK </b> </a></li>
 
                             </ul>
                         </div>
                     </div>
                         <h5>EDUCATION</h5>
                         <ul className='edu'>
-                            <li><big>Software Engineering Immersive : </big><br/> General Assembly - NY,USA -2020 <a href='https://generalassemb.ly/'> LINK </a></li>
-                            <li><big>Financial Management Master’s Degree :</big><br/> Arab Academy for Banking and Financial Sciences<a href='https://www.aambfs.org/'> LINK </a> -  Cairo,Egypt - 2009</li>
-                            <li><big>Information Systems Foundation Degree :</big> <br/> Thebes Academy of science and Technology <a href='http://www.thebesacademy.org/en/page.php?id=3'> LINK </a>-  Cairo,Egypt - 2005 </li>
-                            <li><big>Computer Science Bachelor Degree :</big><br/> Thebes Academy of science and Technology <a href='http://www.thebesacademy.org/en/page.php?id=3'> LINK </a>- Cairo,Egypt - 2004</li>
+                            <li><big>Software Engineering Immersive : </big><br/> General Assembly - NY,USA -2020 <a href='https://generalassemb.ly/'> <b>LINK </b> </a></li>
+                            <li><big>Financial Management Master’s Degree :</big><br/> Arab Academy for Banking and Financial Sciences<a href='https://www.aambfs.org/'> <b>LINK </b> </a> -  Cairo,Egypt - 2009</li>
+                            <li><big>Information Systems Foundation Degree :</big> <br/> Thebes Academy of science and Technology <a href='http://www.thebesacademy.org/en/page.php?id=3'> <b>LINK </b> </a>-  Cairo,Egypt - 2005 </li>
+                            <li><big>Computer Science Bachelor Degree :</big><br/> Thebes Academy of science and Technology <a href='http://www.thebesacademy.org/en/page.php?id=3'><b>LINK </b> </a>- Cairo,Egypt - 2004</li>
                         </ul>
                 </div>
             </div>
