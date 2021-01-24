@@ -14,7 +14,7 @@ class Resume extends React.Component{
                         <a className='frame' href={'https://docs.google.com/document/d/1kTaH2bQx2KFEzSY1lM1ujMioQ3JcHNy_LVszurmZByY/edit?usp=sharing'} target="_blank" rel="noopener noreferrer" download>
                         <button class="custom-btn btn-11">
                             <i className="fas fa-download"/>
-                            Download 
+                            Download s
                             <div class="dot"></div>
                         </button>
                         </a><hr/>
