@@ -642,8 +642,11 @@ section {
     border-bottom: 1px solid black;
   }
   .card{
-      height: 450px;
-      width: 600px;
+    margin-top: 70px;
+    border: 2px solid rgba(	113, 18, 72 , .3) ;
+    box-shadow: 5px 10px 20px rgba(113, 18, 72, .6) ;
+    max-width: 780px;
+    height: 280px;
   }
   .projects_img{
     width: 590px;
