@@ -585,7 +585,7 @@ section {
   nav{
      width: 350px;
      padding-top: 30px;
-     height:auto;
+     height:800px;
   }
   .navTop {
   padding-bottom: 0px;
@@ -652,9 +652,14 @@ section {
   }
   .my-offer p big{
     font-size: 22px;
+    
+  }
+  .portfolio .my-offer p {
+    margin-left: -80px;
   }
   .my-offer p {
     font-size: 22px;
+    
   }
    .portfolio {
     grid-template-rows: 350px auto;
@@ -705,7 +710,7 @@ section {
     box-shadow: 5px 10px 20px rgba(113, 18, 72, .6) ;
     max-width: 450px;
     height: 480px;
-    margin-left: 70px;
+    margin-left: 150px;
 }
 .card-title{
     text-align: center;
