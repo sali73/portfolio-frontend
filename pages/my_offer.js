@@ -3,13 +3,14 @@ import Link from "next/link";
 const Offer = () => {
     return (
             <Layout>
-                <div className='offerPage'>
+                
                 <div className='offer'>
                     <div className="port ">
                         <h1>MY OFFER </h1>
                     </div>
                 </div>
-                <div className='my-offer'>
+                <div className='offerPage'>
+                <div style={{height:'700px'}} className='my-offer'>
                         <p>I have maintained, developed and launched multiple projects from scratch, carrying the development of its' back-end and front-end code bases.
                         My current toolset includes Elixir Language Ruby, React,Redux and all the other various frameworks, libraries and technologies related to them.
                         </p>
