@@ -605,11 +605,13 @@ section {
     font-weight: 900;
     padding-bottom:9px;
     }
+    .navMid {
+  margin-bottom: 550px;
+    }
   .navMid >a{
     font-weight: 900;
     font-size: 1.8em;
     padding-top : 30px;
-    margin-bottom: 550px;
    }
   .navBottom h6{
     padding-top: 80px;
