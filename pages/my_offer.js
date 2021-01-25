@@ -3,6 +3,7 @@ import Link from "next/link";
 const Offer = () => {
     return (
             <Layout>
+                <div className='offerPage'>
                 <div className='offer'>
                     <div className="port ">
                         <h1>MY OFFER </h1>
@@ -66,6 +67,7 @@ const Offer = () => {
                     style={{color:'#7c8591', fontFamily:'Times New Roman', marginTop:'210px'}}>
                         <hr/> If your initial thought is that I can’t be the best in everything, it's okay. Send the design job to someone else, and I will take care of all the code development, or whatever other role you see me best in.
                         In cases when you already have an existing team, but you would still use some help, <Link href={'/contact'}> Contact me. </Link> as well. I’ll fit in very quickly, I promise.</span> */}
+                </div>
                 </div>
             </Layout>
     )

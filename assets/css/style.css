@@ -643,6 +643,7 @@ section {
   .part-one{
       margin-top: 120px;
       margin-right: 30px;
+      width: 900px;
   }
   .portfolio2{
     display: grid;
@@ -657,7 +658,7 @@ section {
   }
    .portfolio {
     grid-template-rows: 350px auto;
-    margin-left: 130px;
+    margin-left: 120px;
   }
   .resumeBottom > h4{
     padding-top: 10px;
@@ -670,6 +671,9 @@ section {
   }
    .offer{
       margin-left: 120px;
+  }
+  .my-offer{
+    margin-left: 170px;
   }
   .social-media{
     margin-top: 300px; 
@@ -701,6 +705,7 @@ section {
     box-shadow: 5px 10px 20px rgba(113, 18, 72, .6) ;
     max-width: 450px;
     height: 480px;
+    margin-left: 70px;
 }
 .card-title{
     text-align: center;
