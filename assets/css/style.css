@@ -798,7 +798,10 @@ section {
 }
 
 .offerPage , .contact , .portfolio{
-  margin-top: 160px;
+  margin-top: 80px;
+}
+.port h1 {
+  text-align: center;
 }
 
 
