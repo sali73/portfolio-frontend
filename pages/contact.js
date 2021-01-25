@@ -45,7 +45,7 @@ const Contact = () => {
                         </fieldset>
                      
                         <div class="form-group">
-                            <textarea style={{ width:'450px', padding:'20px' , margin:'50px 20px 0px'}} name="comment" placeholder="Comment....." className="form-control" rows='5' ></textarea><br/>
+                            <textarea style={{ width:'535px', padding:'20px' , margin:'50px 20px 0px'}} name="comment" placeholder="Comment....." className="form-control" rows='5' ></textarea><br/>
                         </div>
                         <hr/>
                          <div style={{ textAlign:'center'}}>   
