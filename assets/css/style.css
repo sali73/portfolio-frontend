@@ -606,12 +606,12 @@ section {
     padding-bottom:9px;
     }
   .navMid {
-    margin-bottom: 850px;
+    margin-bottom: 800px;
     }
   .navMid >a{
     font-weight: 900;
     font-size: 1.8em;
-    padding-top : 100px;
+    padding-top : 120px;
    }
   .navBottom h6{
     padding-top: 80px;
@@ -659,18 +659,16 @@ section {
   }
   .my-offer p big{
     font-size: 22px;
-    
   }
   .portfolio .my-offer p {
     margin-left: -80px;
   }
   .my-offer p {
     font-size: 22px;
-    
   }
    .portfolio {
     grid-template-rows: 350px auto;
-    margin-left: 120px;
+    margin-left: 130px;
   }
   .resumeBottom > h4{
     padding-top: 10px;
