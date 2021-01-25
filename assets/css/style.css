@@ -87,13 +87,13 @@ main{
 .port{
     width: 960px;
 }
-.port h6{
+/* .port h6{
     margin-top: 45px;
     background-color: rgba(255, 182, 223, 0.1);
     padding: 25px;
     border-radius: 2%;
     border: 1px solid rgba(179, 29, 114, 0.1);
-}
+} */
 .port h1{
     text-shadow: 0px 4px 12px rgb(105, 116, 135);
     color: rgba(179, 29, 114, 0.8);
@@ -647,14 +647,13 @@ section {
   .portfolio2{
     display: grid;
     grid-template-columns: 50px 400px;
-      font-size: x-large;
+    font-size: x-large;
   }
-  .port h6{
-      width: 900px;
-      font-size:x-large;
+  .my-offer p , .my-offer p big{
+    font-size: 25px;
   }
    .portfolio {
-    grid-template-rows: 390px auto;
+    grid-template-rows: 410px auto;
     margin-left: 90px;
   }
   .resumeBottom > h4{
@@ -719,6 +718,7 @@ section {
 .card-footer h6{
     font-size: 15px;;
 }
+
 
 }
 
