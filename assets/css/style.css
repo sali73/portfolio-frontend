@@ -585,14 +585,19 @@ section {
   nav{
      width: 350px;
      padding-top: 30px;
-     height:2700px;
+     height:3000px;
   }
   .navTop {
   padding-bottom: 0px;
+  margin-top: 100px;
   }
   .navTop h6{
       font-size: large;
       padding-bottom: 30px;
+  }
+  .navTop{
+    margin-top: 150px;
+    margin-bottom: 150px;
   }
   .navTop h4{
     font-size: 1.6em;
