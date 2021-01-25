@@ -646,7 +646,7 @@ section {
     width: 220px;
   }
   .navTop {
-    margin-top: 150px;
+    margin-top: 120px;
     margin-bottom: 150px;
   }
   .navTop h4{
@@ -655,12 +655,14 @@ section {
   .navTop h6{
       font-size: large;
       padding-bottom: 30px;
+      margin-left: 20px;
   }
   .navTop h4{
     font-size: 1.6em;
     text-shadow: none;
     font-weight: 900;
     padding-bottom:9px;
+    margin-left: 20px;
     }
   .navMid {
     margin-bottom: 180px;
@@ -668,7 +670,7 @@ section {
   .navMid >a{
     font-weight: 900;
     font-size: 1.8em;
-    padding-top : 120px;
+    padding-top : 90px;
    }
   .navBottom h6{
     padding-top: 80px;
