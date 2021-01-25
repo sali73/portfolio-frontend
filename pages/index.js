@@ -50,10 +50,10 @@ render(){
                 </div>
                 <div className='portfolio2'>
                     <div className='part-one'>
-                        <small><br/><br/><br/>Now<br/> <br/><br/><br/><br/><br/><br/>2020<br/><br/><br/><br/><br/><br/><br/>Projects</small>
+                        <small><br/><br/><br/><br/>Now<br/> <br/><br/><br/><br/><br/><br/>2020<br/><br/><br/><br/><br/><br/><br/>Projects</small>
                     </div>
                     <div className='part-two' >
-                            <h6 style={{ marginRight:'50px', marginTop:'20px'}}><big>Currently open to co-operation on new and existing projects.</big><br/>
+                            <h6 style={{ marginRight:'50px', marginTop:'60px'}}><big>Currently open to co-operation on new and existing projects.</big><br/>
                                 Looking for a Software Engineer, Frontend or Full-stack willing to join your team?
                                 <Link href={'/contact'}>
                                      <b> Contact me.</b>
@@ -61,7 +61,7 @@ render(){
                             <div className='line'> </div>
                             <h6 style={{ marginRight:'55px'}}>I had 12 Weeks Of Software Engineering Impressive Training
                                 Create Apps Using Front-end and Back-end Tools.This gave me a lot of experience and hindsight on how a proper team collaboration,
-                                recruitment, and project management process should look like. Also I graduated of <big>Computer Science Bachelor degree</big> 
+                                recruitment, and project management process should look like. Also I graduated of <span style={{color: '#B31D72'}}>Computer Science Bachelor degree</span> 
                                 <Link href={'/Resume'}>
                                     <b> My Resume </b> 
                                 </Link>

@@ -11,7 +11,8 @@ const Offer = () => {
                 </div>
                 <div className='my-offer'>
                         <p>I have maintained, developed and launched multiple projects from scratch, carrying the development of its' back-end and front-end code bases.
-                        My current toolset includes Elixir Language Ruby, React,Redux and all the other various frameworks, libraries and technologies related to them.</p>
+                        My current toolset includes Elixir Language Ruby, React,Redux and all the other various frameworks, libraries and technologies related to them.
+                        </p>
                         <h5><i class="em em-first_place_medal" aria-role="presentation" aria-label="FIRST PLACE MEDAL"></i> I can help you with all the sides of your project :</h5>
                         <ul >
                             <li><h6>leading/co-developing the back-end and front-end.</h6></li>
@@ -62,11 +63,11 @@ const Offer = () => {
                             
                         </ul>
                     </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                    <span style={{color:'#7c8591', width:'1200px'}}>
+                    {/* <span style={{color:'#7c8591', width:'1200px'}}>
                         <h6>
                         <hr/> If your initial thought is that I can’t be the best in everything, it's okay. Send the design job to someone else, and I will take care of all the code development, or whatever other role you see me best in.
                         In cases when you already have an existing team, but you would still use some help, <Link href={'/contact'}> Contact me. </Link> as well. I’ll fit in very quickly, I promise.</h6>
-                    </span>
+                    </span> */}
                 </div>
                 </div>
             </Layout>

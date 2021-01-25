@@ -264,13 +264,12 @@ h6 , h5{
     line-height: 2;
     width: 900px;
     font-size: large;
-    /* background-color: rgba(179, 29, 114, 0.1); */
     padding: 40px;
     border: 1px solid rgba(179, 29, 114, 0.1);
     background-color: rgba(255, 182, 223, 0.1);
     border-radius: 2%;
 }
-.my-offer  h5 , .resume h5{
+.my-offer  h5 , .resume h5 , .part-two big{
     color: #B31D72;
     font-size: large;
     font-weight: bold;
@@ -302,6 +301,9 @@ h6 , h5{
 h5 img {
     width: 6%;
 }
+.my-offer  h5 {
+  margin-top: 60px;
+}
 
 /*---------------------*/
 /*contact Component*/
@@ -309,19 +311,18 @@ h5 img {
 .contact{
      height: 1000px;
  }
-.social-media h4{
+.social-media h6{
     text-align: center;
-    padding-left: 100px;
+    padding-left: 130px;
     margin-top: -70px;
 }
-form h1, input::-webkit-input-placeholder, button, legend, label {
-    /* font-family: 'roboto', sans-serif; */
+form h6, input::-webkit-input-placeholder, button, legend, label {
     transition: all 0.3s ease-in-out;
 }
-form h1 {
+form h6 {
     height: 130px;
-    width: 600px;
-    font-size: 22px;
+    width: 500px;
+    font-size: 18px;
     background: #B31D72;
     color: white;
     line-height: 150%;
@@ -338,7 +339,7 @@ form h1 {
     list-style: none;
     margin-left: 40px;
 }
-form h1 {
+form h6 {
     box-sizing: border-box;
     padding-top: 33px;
 }
@@ -359,15 +360,15 @@ form h1 {
 }
 label {
     padding: 10px 0;
-    font-size: 17px;
+    font-size: 15px;
 }
 form {
     box-sizing: border-box;
-    width: 600px;
-    margin: 65px 120px 0px;
+    width: 500px;
+    margin: 65px 150px 0px;
     box-shadow: 3px 0px 3px 8px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
-       background-color: rgba(255, 182, 223, 0.1);
+    background-color: rgba(255, 182, 223, 0.1);
 }
 input:focus, input:valid {
     box-shadow: none;
@@ -376,7 +377,7 @@ input:focus, input:valid {
 }
 input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
     color: rgb(179, 29, 114);;
-    font-size: 19px;
+    font-size: 15px;
     transform: translateY(-20px);
     visibility: visible !important;
 }
@@ -390,7 +391,7 @@ form button {
     color: white;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
     margin: 20px;
-    font-size: 22px;
+    font-size: 18px;
 }
 button:hover {
     transform: translateY(-3px);
@@ -498,7 +499,7 @@ section {
     bottom: 20px;
     left: 20px;
     color: hsla(0, 0%, 0%, .9);
-    font-size: 16px;
+    font-size: 15px;
   }
 
 /*---------------------*/

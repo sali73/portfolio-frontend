@@ -9,7 +9,7 @@ const Contact = () => {
                         <h1>CONTACT ME</h1>
                     </div>  
                     <form action="https://formspree.io/f/mknpbvdj" method="POST" >
-                        <h1> I am available for hire and open to any ideas of cooperation</h1>
+                        <h6> I am available for hire and open to any ideas of cooperation</h6>
                         <div className='form-row'>
                             <div class="form-group col-md-6">
                                 <input type="text" name="name"  placeholder="Enter Your Name"/><br/>
@@ -22,7 +22,7 @@ const Contact = () => {
                         <fieldset class="form-group " >
                             <div class="row">
                             <section class="light">
-                                <legend style={{ marginLeft:'80px' , color: '#B31D72', fontSize: '22px'}}>Gender:</legend>
+                                <legend style={{ marginLeft:'80px' , color: '#B31D72', fontSize: '17px'}}>Gender:</legend>
                                 <div class="col-sm-10">
                                     <div class="form-check">
                                     <label for="gridRadios1">
@@ -45,7 +45,7 @@ const Contact = () => {
                         </fieldset>
                      
                         <div class="form-group">
-                            <textarea style={{ width:'550px', padding:'20px' , margin:'50px 20px 0px'}} name="comment" placeholder="Comment....." className="form-control" rows='5' ></textarea><br/>
+                            <textarea style={{ width:'450px', padding:'20px' , margin:'50px 20px 0px'}} name="comment" placeholder="Comment....." className="form-control" rows='5' ></textarea><br/>
                         </div>
                         <hr/>
                          <div style={{ textAlign:'center'}}>   
@@ -55,7 +55,7 @@ const Contact = () => {
                     </form>
                     </div>
                     <div className='social-media'>
-                        <h4> Find me on social media!</h4>
+                        <h6> Or you can find me on social media!</h6>
                         <ul>
                             <li> <a className='' href='https://www.instagram.com/elgendy.sally/'><img src= 'https://icons.iconarchive.com/icons/uiconstock/socialmedia/48/Instagram-icon.png' alt = ''/></a></li>
 
