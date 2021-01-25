@@ -87,13 +87,6 @@ main{
 .port{
     width: 960px;
 }
-/* .port h6{
-    margin-top: 45px;
-    background-color: rgba(255, 182, 223, 0.1);
-    padding: 25px;
-    border-radius: 2%;
-    border: 1px solid rgba(179, 29, 114, 0.1);
-} */
 .port h1{
     text-shadow: 0px 4px 12px rgb(105, 116, 135);
     color: rgba(179, 29, 114, 0.8);
@@ -587,6 +580,9 @@ section {
      padding-top: 30px;
      height:3000px;
   }
+  .myimg{
+    width: 170px;
+  }
   .navTop {
   padding-bottom: 0px;
   margin-top: 100px;
@@ -606,7 +602,7 @@ section {
     padding-bottom:9px;
     }
   .navMid {
-    margin-bottom: 800px;
+    margin-bottom: 750px;
     }
   .navMid >a{
     font-weight: 900;
