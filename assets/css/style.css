@@ -637,7 +637,7 @@ section {
   .part-two{
       margin-top: 90px;
       font-size: xx-large;
-      width: 600px;
+      width: 900px;
       margin-left: 40px;
   }
   .part-one{
@@ -657,7 +657,7 @@ section {
   }
    .portfolio {
     grid-template-rows: 350px auto;
-    margin-left: 90px;
+    margin-left: 130px;
   }
   .resumeBottom > h4{
     padding-top: 10px;
