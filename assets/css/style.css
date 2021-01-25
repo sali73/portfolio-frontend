@@ -602,7 +602,7 @@ section {
     padding-bottom:9px;
     }
   .navMid {
-    margin-bottom: 750px;
+    margin-bottom: 650px;
     }
   .navMid >a{
     font-weight: 900;
@@ -731,6 +731,10 @@ section {
 }
 .card-footer h6{
     font-size: 15px;;
+}
+.jumbotron{
+  margin-left: 50px;
+
 }
 
 
