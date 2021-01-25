@@ -622,6 +622,7 @@ section {
     font-size: 1.7em;
     height: auto;
     width: 900px;
+    margin-left: 170px;
   }
   .my-offer p{
       width: 900px;
@@ -629,6 +630,9 @@ section {
   }
   .my-offer p big{
     font-size: 23px;
+  }
+  .offer{
+    margin-left: 120px;
   }
   .portfolio .my-offer p {
     margin-left: -80px;
@@ -671,12 +675,6 @@ section {
   }
   .contact{
       margin-left: 120px;
-  }
-   .offer{
-      margin-left: 120px;
-  }
-  .my-offer{
-    margin-left: 170px;
   }
   .social-media{
     margin-top: 300px; 
@@ -730,7 +728,7 @@ section {
     font-size: 15px;;
 }
 .jumbotron{
-  margin-left: 50px;
+  margin-left: 70px;
 
 }
 
