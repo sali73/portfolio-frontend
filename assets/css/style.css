@@ -602,7 +602,7 @@ section {
     padding-bottom:9px;
     }
   .navMid {
-    margin-bottom: 650px;
+    margin-bottom: 550px;
     }
   .navMid >a{
     font-weight: 900;
@@ -625,7 +625,13 @@ section {
   }
   .my-offer p{
       width: 900px;
-      font-size: xx-large;
+      font-size: 23px;
+  }
+  .my-offer p big{
+    font-size: 23px;
+  }
+  .portfolio .my-offer p {
+    margin-left: -80px;
   }
   main{
     font-size: 1.6em;
@@ -652,15 +658,6 @@ section {
     display: grid;
     grid-template-columns: 50px 400px;
     font-size: x-large;
-  }
-  .my-offer p big{
-    font-size: 22px;
-  }
-  .portfolio .my-offer p {
-    margin-left: -80px;
-  }
-  .my-offer p {
-    font-size: 22px;
   }
    .portfolio {
     grid-template-rows: 350px auto;
