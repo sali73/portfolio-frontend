@@ -650,13 +650,13 @@ section {
     font-size: x-large;
   }
   .my-offer p big{
-    font-size: 12px;
+    font-size: 22px;
   }
   .my-offer p {
-    font-size: 12px;
+    font-size: 22px;
   }
    .portfolio {
-    grid-template-rows: 230px auto;
+    grid-template-rows: 350px auto;
     margin-left: 90px;
   }
   .resumeBottom > h4{
