@@ -583,7 +583,7 @@ section {
         font-size: 20px;
     }
   nav{
-     width: 300px;
+     width: 350px;
      padding-top: 30px;
      height:auto;
   }
@@ -656,7 +656,7 @@ section {
     font-size: 12px;
   }
    .portfolio {
-    grid-template-rows: 580px auto;
+    grid-template-rows: 230px auto;
     margin-left: 90px;
   }
   .resumeBottom > h4{
