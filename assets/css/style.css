@@ -255,7 +255,7 @@ h6 , h5{
 .my-offer{
     margin-left: 30px;
     font-size: .5em;
-    height: 700px;
+    height: auto;
 }
 .my-offer p{
     margin-bottom: 40px;
@@ -308,7 +308,7 @@ h5 img {
 /*contact Component*/
 /*--------------------*/
 .contact{
-     height: 900px;
+     height: 1000px;
  }
 form h6, input::-webkit-input-placeholder, button, legend, label {
     transition: all 0.3s ease-in-out;
@@ -398,7 +398,6 @@ button:hover {
 }
 .social-media {
 padding-left: 90px;
-margin-top: 140px;
 }
 
 /* //// redio button//// */
@@ -603,7 +602,7 @@ section {
   background: linear-gradient(0deg, rgb(201, 172, 123,1) 0%, rgb(201, 172, 123,1)  100%);
   color: #fff;
   overflow: hidden;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 .frame .btn-11:hover {
   text-decoration: none;
@@ -685,7 +684,7 @@ section {
    padding-left: 20px;
   }
   .navBottom h6{
-   font-size: 22px;
+   font-size: 19px;
    }
   .my-offer{
     margin-left: 90px;
@@ -816,9 +815,7 @@ form h6{
 
 }
 
-.offerPage {
-  height: 200px;
-}
+
 
 
 
