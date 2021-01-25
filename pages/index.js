@@ -50,7 +50,7 @@ render(){
                 </div>
                 <div className='portfolio2'>
                     <div className='part-one'>
-                        <small><br/><br/><br/><br/>Now<br/> <br/><br/><br/><br/><br/><br/>2020<br/><br/><br/><br/><br/><br/><br/>Projects</small>
+                        <small>Now<br/><br/><br/><br/><br/>2020<br/><br/><br/><br/><br/><br/>Projects</small>
                     </div>
                     <div className='part-two' >
                             <h6 style={{ marginRight:'50px', marginTop:'60px'}}><big>Currently open to co-operation on new and existing projects.</big><br/>
