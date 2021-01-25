@@ -626,10 +626,10 @@ section {
   }
   .my-offer p{
       width: 900px;
-      font-size: 23px;
+      font-size: 24px;
   }
   .my-offer p big{
-    font-size: 23px;
+    font-size: 24px;
   }
   .offer{
     margin-left: 120px;
@@ -664,7 +664,7 @@ section {
     font-size: x-large;
   }
    .portfolio {
-    grid-template-rows: 350px auto;
+    grid-template-rows: 390px auto;
     margin-left: 130px;
   }
   .resumeBottom > h4{
@@ -725,11 +725,14 @@ section {
     color: white;
 }
 .card-footer h6{
-    font-size: 15px;;
+    font-size: 15px;
 }
 .jumbotron{
-  margin-left: 70px;
+  margin-left: 100px;
+}
 
+.offerPage , .jumbotron , .portfolio{
+  margin-top: 160px;
 }
 
 
