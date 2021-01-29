@@ -61,7 +61,7 @@ render(){
                             <div className='line'> </div>
                             <h6 style={{ marginRight:'55px'}}>I had 12 Weeks Of Software Engineering Impressive Training
                                 Create Apps Using Front-end and Back-end Tools.This gave me a lot of experience and hindsight on how a proper team collaboration,
-                                recruitment, and project management process should look like. Also I graduated of <span style={{color: '#B31D72'}}>Computer Science Bachelor degree</span> 
+                                recruitment, and project management process should look like. Also I graduated of <span style={{color: '#B31D72'}}>Computer Science Bachelor Degree</span> 
                                 <Link href={'/Resume'}>
                                     <b> My Resume </b> 
                                 </Link>
