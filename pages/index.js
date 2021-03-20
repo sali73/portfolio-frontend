@@ -2,6 +2,8 @@ import fetch from 'isomorphic-unfetch';
 import Link from "next/link";
 import Layout from '../components/Layout';
 import {Component} from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
 
 export default class Index extends Component {
     state = {

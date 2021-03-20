@@ -3,7 +3,7 @@ import Link from "next/link";
 const Offer = () => {
     return (
             <Layout>
-                
+
                 <div className='offer'>
                     <div className="port ">
                         <h1>MY OFFER </h1>
@@ -15,18 +15,18 @@ const Offer = () => {
                         My current toolset includes Elixir Language Ruby, React,Redux and all the other various frameworks, libraries and technologies related to them.
                         </p>
                         <h5>
-                            <i class="em em-first_place_medal" aria-role="presentation" aria-label="FIRST PLACE MEDAL"></i> 
+                            <i class="em em-first_place_medal" aria-role="presentation" aria-label="FIRST PLACE MEDAL"></i>
                             I can help you with all the sides of your project :</h5>
                         <ul >
                             <li><h6>leading/co-developing the back-end and front-end.</h6></li>
                             <li><h6>leading, launching and monitoring the project.</h6></li>
                             <li><h6>researching possible techs.</h6></li>
                             <li><h6>mentoring the team.</h6></li>
-                            <li><h6>estimating tasks.</h6></li>   
+                            <li><h6>estimating tasks.</h6></li>
                         </ul>
                     {/* <div className='line'> </div> */}
-                    <div> 
-                        <h5><img src='https://icons.iconarchive.com/icons/cornmanthe3rd/plex/24/Other-html-5-icon.png'/> FRONT-END ENGINEERING</h5>
+                    <div>
+                        <h5><img src='https://icons.iconarchive.com/icons/cornmanthe3rd/plex/24/Other-html-5-icon.png'/> FRONT-END ENGINEERING:</h5>
                         <div className="my-offer-header">
                             <h6>My current experience and skills in front-end includes:</h6>
                         </div>
@@ -42,14 +42,14 @@ const Offer = () => {
                             <li><h6> webpack, npm</h6></li>
                             <li><h6> React, Next</h6></li>
                             <li><h6> Django</h6></li>
-                            <li><h6> Redux</h6></li>   
-                            <li><h6> AJAX</h6></li>   
+                            <li><h6> Redux</h6></li>
+                            <li><h6> AJAX</h6></li>
                             </div>
                         </ul>
                     </div>
                     {/* <div className='line'> </div> */}
                     <div>
-                        <h5><img src='https://icons.iconarchive.com/icons/thehoth/seo/24/seo-web-code-icon.png'/> BACK-END ENGINEERING</h5>
+                        <h5><img src='https://icons.iconarchive.com/icons/thehoth/seo/24/seo-web-code-icon.png'/> BACK-END ENGINEERING:</h5>
                         <div className="my-offer-header">
                             <h6>What I can do for you at that side is :</h6>
                         </div>
@@ -61,9 +61,9 @@ const Offer = () => {
                             </div>
                             <div>
                                 <li><h6> python </h6></li>
-                                
+
                             </div>
-                            
+
                         </ul>
                     </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                     {/* <span style={{color:'#7c8591', width:'1200px'}}>
