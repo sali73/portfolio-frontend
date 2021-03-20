@@ -22,7 +22,7 @@ class Resume extends React.Component{
                         <h5>SOFTWARE ENGINEER</h5>
                         <h6>Sally.elgendy@hotmail.com  |  Yonkers, New York |  https://github.com/sali73  |  https://www.linkedin.com/in/salimohamed</h6>
                     </div><hr/>
-                    
+
                     <div style={{paddingTop:'10px'}} className='resume'>
                         <h5>SUMMARY</h5>
                         <p>I am a strong foundation in software engineering and programming principles across multiple platforms. Experienced in object-oriented programming, developing, testing/debugging code, and designing interfaces.Quick learner and a successful master of new technologies.</p>
@@ -36,7 +36,7 @@ class Resume extends React.Component{
                             <h6 className='exTaitelInFo'>Software Engineering Mentor - September 2020 to Present  - New York</h6>
                            <ul>
                                <li>Assisting students in understanding/creating/debugging code, also provide technical support to solve problems. </li>
-                            </ul> 
+                            </ul>
                         </div>
                         <div>
                             <big className='exTaitel'>Coursera ( volunteer ):</big>
@@ -68,7 +68,15 @@ class Resume extends React.Component{
                             <big className='exTaitel'>El Marwa Food Industries :</big>
                             <h6 className='exTaitelInFo'>Junior front end developer - May 2012 to September 2016 - Cairo,Egypt</h6>
                             <ul>
-                                <li>Implemented web designs and outlook through programming languages HTML, CSS , jQuery and JavaScript frameworks to renew and update the industrie website <a href='http://www.elmarwa.com'><b>LINK </b> </a></li>
+                                <li>As a front-end developer, I work closely with designers, producers, and our offshore teams in a global effort to roll
+                                    out a refresh of the company website. My responsibilities include, but are not limited to, maintaining and updating
+                                    our codebase, as well as incorporating new, rich interactive experiences into the website.
+                                    Functionalities include writing code in HTML, CSS, Javascript, Jquery, and JSP making use of the bootstrap
+                                    framework.
+                                    Developing highly modularized and advanced object-oriented (oop) design in javascript to ensure reusability,
+                                    extensibility, and ease of maintenance.
+                                    Helping develop a responsive framework that worked on a smartphone as well as it did on tablets and desktops.
+                                    <a href='http://www.elmarwa.com'><b>LINK </b> </a></li>
 
                             </ul>
                         </div>
