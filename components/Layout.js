@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import '../assets/css/style.css'
-import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import Index from '../pages/index'
 import Contact from '../pages/contact'
 import Offer from '../pages/my_offer'
@@ -29,18 +28,12 @@ const Layout = (props) => {
                             <h6> SOFTWEAR ENGINEERING </h6>
                         </div>
                          <div className='navMid'>
-                            // <a class="btn btn-2 " href={'/'}>PORTFOLIO ></a>
-                            // <a class="btn btn-2 "  href={'/my_offer'} >What I Offer</a>
-                            // <a class="btn btn-2 " href={'/Resume'}>My Resume</a>
-                            // <a class="btn btn-2 " href={'/contact'} >Contact Me</a>
+                            <a class="btn btn-2 " href={'/'}>PORTFOLIO ></a>
+                            <a class="btn btn-2 "  href={'/my_offer'} >What I Offer</a>
+                            <a class="btn btn-2 " href={'/Resume'}>My Resume</a>
+                            <a class="btn btn-2 " href={'/contact'} >Contact Me</a>
 
-                            <BrowserRouter>
-                              <Nav />
-                              <Route exact path="/" component={Index} exact />
-                              <Route path="/contact" component={Contact} />
-                              <Route path="/offer" component={Offer} />
-                              <Route path="/resume" component={Resume} />
-                            </BrowserRouter>
+
                             {/* <a class="btn btn-2 " href={'https://docs.google.com/document/d/e/2PACX-1vQn7QWbTkiiFuM5f3oYoWdod-uufQcF-dDOT_-LDZE7w5wOwKh1iF4q5JOq3d0mHaRtpLvW3pIaJUJ6/pub'}>My Resume</a> */}
                         </div>
                         <div className='navBottom'>
