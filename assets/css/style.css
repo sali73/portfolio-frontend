@@ -16,7 +16,7 @@ nav {
   z-index: 1;
   overflow-x: hidden;
   padding-left: 20px;
-  width: 310px;
+  width: 300px;
   position: fixed;
   height: auto;
   color: black;
@@ -41,7 +41,7 @@ nav {
   width: 150px;
   border-radius: 30%;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
   box-shadow: 5px 1px 15px rgba(238, 194, 127, 0.5);
 }
 .navMid > a {
