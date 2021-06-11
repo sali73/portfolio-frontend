@@ -93,7 +93,7 @@ class Resume extends React.Component {
                 <div>
                   <big className="exTaitel">General Assembly :</big>
                   <h6 className="exTaitelInFo">
-                    Software Engineering Fellow - April 2020 to Current - New
+                    Software Engineering Fellow - April 2020 to Dec 2020 - New
                     York
                   </h6>
                   <ul>
