@@ -26,7 +26,7 @@ class Resume extends React.Component {
                 </button>
               </a>
               <hr />
-              <h3>Sali Samir Mahmoud</h3>
+              <h3>Sali Mahmoud</h3>
               <h5>SOFTWARE ENGINEER</h5>
               <h6>
                 Sally.elgendy@hotmail.com || www.github.com/sali73 ||
@@ -135,7 +135,7 @@ class Resume extends React.Component {
                   <ul>
                     <li>
                       Use markup languages like HTML, CSS, JavaScript, jQuery,
-                      React, Redux, Node, RESTful APIs to create userfriendly
+                      React, Redux, Node, RESTful APIs to create user friendly
                       web pages, Maintain and improve website, Design
                       mobile-based features, and Get feedback from, and build
                       solutions for, users and customers for
