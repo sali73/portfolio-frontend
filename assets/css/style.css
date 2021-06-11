@@ -847,3 +847,9 @@ input:active + .design::after {
     width: 700px;
   }
 }
+.portfolio,
+.offer,
+.contact,
+.jumbotron {
+  margin-left: -30px;
+}
