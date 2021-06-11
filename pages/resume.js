@@ -118,7 +118,7 @@ class Resume extends React.Component {
                 <div>
                   <big className="exTaitel">Freelance :</big>
                   <h6 className="exTaitelInFo">
-                    Full stack Engineering - December 2017 to July 2018
+                    Full Stack Engineering - December 2017 to July 2018
                   </h6>
                   <ul>
                     <li>
@@ -128,9 +128,9 @@ class Resume extends React.Component {
                   </ul>
                 </div>
                 <div>
-                  <big className="exTaitel">Front End Developer :</big>
+                  <big className="exTaitel">Record Media :</big>
                   <h6 className="exTaitelInFo">
-                    front end developer - Aug 2018 to Oct 2019 - Remote
+                    Front-end Developer - Aug 2018 to Oct 2019 - Remote
                   </h6>
                   <ul>
                     <li>
@@ -146,7 +146,7 @@ class Resume extends React.Component {
                 <div>
                   <big className="exTaitel">El Marwa Food Industries :</big>
                   <h6 className="exTaitelInFo">
-                    Junior front end developer - May 2012 to September 2016 -
+                    Junior Front-end Developer - May 2012 to September 2016 -
                     Cairo,Egypt
                   </h6>
                   <ul>
