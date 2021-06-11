@@ -39,7 +39,7 @@ nav {
 }
 .myimg {
   width: 150px;
-  border-radius: 50%;
+  border-radius: 30%;
   margin-bottom: 20px;
   margin-left: 20px;
   box-shadow: 5px 1px 15px rgba(238, 194, 127, 0.5);
