@@ -64,6 +64,18 @@ class Resume extends React.Component {
               <div className="resumeEx">
                 <h5>EXPERIENCE</h5>
                 <div>
+                  <big className="exTaitel">Coursera ( volunteer ):</big>
+                  <h6 className="exTaitelInFo">
+                    Python Mentor - June 2020 to Present - New York
+                  </h6>
+                  <ul>
+                    <li>
+                      Respond to questions from current Python Data Structures
+                      learners and assist students in debug/solve problems.
+                    </li>
+                  </ul>
+                </div>
+                <div>
                   <big className="exTaitel">
                     General Assembly ( volunteer ):
                   </big>
@@ -75,18 +87,6 @@ class Resume extends React.Component {
                     <li>
                       Assisting students in understanding/creating/debugging
                       code, also provide technical support to solve problems.{" "}
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <big className="exTaitel">Coursera ( volunteer ):</big>
-                  <h6 className="exTaitelInFo">
-                    Python Mentor - June 2020 to Present - New York
-                  </h6>
-                  <ul>
-                    <li>
-                      Respond to questions from current Python Data Structures
-                      learners and assist students in debug/solve problems.
                     </li>
                   </ul>
                 </div>
