@@ -41,7 +41,7 @@ export default class Index extends Component {
         <div className="portfolio">
           <div className="port">
             <h1> PORTFOLIO</h1>
-            <div className="my-offer" style={{ marginLeft: "60px" }}>
+            <div className="my-offer" style={{ marginLeft: "80px" }}>
               <p>
                 <big>About me </big> I am a strong foundation in software
                 engineering and programming principles across multiple
