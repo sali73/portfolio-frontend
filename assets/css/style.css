@@ -16,7 +16,7 @@ nav {
   z-index: 1;
   overflow-x: hidden;
   padding-left: 20px;
-  width: 310px;
+  width: 320px;
   position: fixed;
   height: auto;
   color: black;
@@ -35,6 +35,7 @@ nav {
   color: #b31d72;
   text-shadow: 2px 2px;
   font-size: 1.8em;
+  margin-left: -5px;
 }
 .myimg {
   width: 150px;
