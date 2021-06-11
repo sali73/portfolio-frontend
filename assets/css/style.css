@@ -39,9 +39,9 @@ nav {
 }
 .myimg {
   width: 150px;
-  border-radius: 30%;
+  border-radius: 20%;
   margin-bottom: 20px;
-  margin-left: 25px;
+  margin-left: 30px;
   box-shadow: 5px 1px 15px rgba(238, 194, 127, 0.5);
 }
 .navMid > a {
