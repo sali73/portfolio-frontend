@@ -29,8 +29,8 @@ class Resume extends React.Component {
               <h3>Sali Samir Mahmoud</h3>
               <h5>SOFTWARE ENGINEER</h5>
               <h6>
-                Sally.elgendy@hotmail.com | https://github.com/sali73 |
-                https://www.linkedin.com/in/salimohamed
+                Sally.elgendy@hotmail.com || www.github.com/sali73 ||
+                www.linkedin.com/in/salimohamed
               </h6>
             </div>
             <hr />
