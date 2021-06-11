@@ -176,11 +176,12 @@ class Resume extends React.Component {
               <ul className="edu">
                 <li>
                   <big>Software Engineering Immersive : </big>
-                  <br /> General Assembly - NY,USA -2020{" "}
+                  <br /> General Assembly
                   <a href="https://generalassemb.ly/">
                     {" "}
                     <b>LINK </b>{" "}
-                  </a>
+                  </a>{" "}
+                  - NY,USA -2020
                 </li>
                 <li>
                   <big>Financial Management Master’s Degree :</big>
