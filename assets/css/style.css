@@ -594,7 +594,7 @@ input:active + .design::after {
   text-align: center;
 }
 .frame button {
-  margin: 20px;
+  margin: 10px;
 }
 .frame .custom-btn {
   width: 130px;
