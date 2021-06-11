@@ -29,8 +29,7 @@ class Resume extends React.Component {
               <h3>Sali Samir Mahmoud</h3>
               <h5>SOFTWARE ENGINEER</h5>
               <h6>
-                Sally.elgendy@hotmail.com | Dallas, Texas |
-                https://github.com/sali73 |
+                Sally.elgendy@hotmail.com | https://github.com/sali73 |
                 https://www.linkedin.com/in/salimohamed
               </h6>
             </div>
@@ -53,7 +52,7 @@ class Resume extends React.Component {
                 Design, Cross-Browser Development, Content Management Systems,
                 HTML, CSS, SASS, Modern UI frameworks ( Material UI, Bootstrap
                 ), Javascript, Object Oriented JavaScript, JQuery, ReactJS,
-                Node, Json, Expressjs, Redux, workflow / build systems( webpack,
+                Node, Json, Express, Redux, workflow / build systems( webpack,
                 npm ), Python, Django, Restful APIS, SQL, MySQL, RubyOn Rails,
                 Go, Angular, Typescript, git/github, Trello, Debugging issues
                 using Postman...
@@ -112,7 +111,7 @@ class Resume extends React.Component {
                       Programming languages and toolsets covered include:
                       Git/Github, HTML, CSS, SASS, javaScript, Express/Node,
                       jQuery, MongoDB, SQL, React, Python/Django, RESTful APIs,
-                      SASS, Ruby on Rails.
+                      SASS, Ruby on Rails, Go.
                     </li>
                   </ul>
                 </div>
@@ -125,6 +124,22 @@ class Resume extends React.Component {
                     <li>
                       Build a series of development projects full-stack web
                       applications.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <big className="exTaitel">Front End Developer :</big>
+                  <h6 className="exTaitelInFo">
+                    front end developer - Aug 2018 to Oct 2019 - Remote
+                  </h6>
+                  <ul>
+                    <li>
+                      Use markup languages like HTML, CSS, JavaScript, jQuery,
+                      React, Redux, Node, RESTful APIs to create userfriendly
+                      web pages, Maintain and improve website, Design
+                      mobile-based features, and Get feedback from, and build
+                      solutions for, users and customers for
+                      http://www.recordmediaeg.com
                     </li>
                   </ul>
                 </div>
@@ -142,14 +157,14 @@ class Resume extends React.Component {
                       responsibilities include, but are not limited to,
                       maintaining and updating our codebase, as well as
                       incorporating new, rich interactive experiences into the
-                      website. Functionalities include writing code in HTML,
-                      CSS, Javascript, Jquery, and JSP making use of the
-                      bootstrap framework. Developing highly modularized and
-                      advanced object-oriented (oop) design in javascript to
-                      ensure reusability, extensibility, and ease of
-                      maintenance. Helping develop a responsive framework that
-                      worked on a smartphone as well as it did on tablets and
-                      desktops.
+                      website. Functionalities include writing code in React,
+                      Redux, Node, Express, API, MongoDB, HTML, CSS, Javascript,
+                      JQuery, and JSP making use of the bootstrap framework.
+                      Developing highly modularized and advanced object-oriented
+                      (oop) design in javascript to ensure reusability,
+                      extensibility, and ease of maintenance. Helping develop a
+                      responsive framework that worked on a smartphone as well
+                      as it did on tablets and desktops.
                       <a href="http://www.elmarwa.com">
                         <b>LINK </b>{" "}
                       </a>
