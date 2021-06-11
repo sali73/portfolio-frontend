@@ -851,5 +851,6 @@ input:active + .design::after {
 .offer,
 .contact,
 .jumbotron {
-  margin-left: -40px;
+  margin-left: -45px;
+  margin-bottom: -10px;
 }
